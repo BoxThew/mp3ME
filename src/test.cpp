@@ -1,6 +1,7 @@
 #include <iostream>
 #include <fileref.h>
 #include <tag.h>
+#include "Song.hpp"
 
 
 int main(){
@@ -13,10 +14,17 @@ int main(){
 
     TagLib::Tag *tag = f.tag();
 
-    std::cout << "Title: " << tag->title().to8Bit(true) << "\n";
-    std::cout << "Artist: " << tag->artist().to8Bit(true) << "\n";
-    std::cout << "Album: " << tag->album().to8Bit(true) << "\n";
-    std::cout << "Year: " << tag->year() << "\n";
+    Song s;
+    s.set_artist(tag->title().to8Bit(true));
+    s.set_title(tag->artist().to8Bit(true));
+    s.set_album(tag->album().to8Bit(true));
+    s.set_year_rel(tag->year());
+    
+
+    std::cout << "Title: " << s.get_title() << "\n";
+    std::cout << "Artist: " << s.get_artist() << "\n";
+    std::cout << "Album: " << s.get_album() << "\n";
+    std::cout << "Year: " << s.get_year_rel() << "\n";
 
     return 0;
 }

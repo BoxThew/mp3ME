@@ -234,4 +234,5 @@ CMakeFiles/MP3ME.dir/src/test.cpp.o: \
  /home/pleiades/Programming/Projects/mp3ME/external/taglib-2.1.1/taglib/toolkit/tstring.h \
  /home/pleiades/Programming/Projects/mp3ME/external/taglib-2.1.1/taglib/toolkit/tbytevectorlist.h \
  /home/pleiades/Programming/Projects/mp3ME/external/taglib-2.1.1/taglib/audioproperties.h \
- /home/pleiades/Programming/Projects/mp3ME/external/taglib-2.1.1/taglib/toolkit/taglib.h
+ /home/pleiades/Programming/Projects/mp3ME/external/taglib-2.1.1/taglib/toolkit/taglib.h \
+ /home/pleiades/Programming/Projects/mp3ME/include/Song.hpp
