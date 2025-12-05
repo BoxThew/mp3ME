@@ -6,11 +6,12 @@
 #include <filesystem>
 #include <vector>
 
+using itr = std::filesystem::directory_iterator;
 
 int main(){
     std::vector<Song> songs;
     std::string path = "songs";
-    for (const auto& entry : std::filesystem::directory_iterator(path)){
+    for (const auto& entry : itr(path)){
         Song s;
         std::string file_path = entry.path();
         TagLib::FileRef f(file_path.c_str());
@@ -19,8 +20,8 @@ int main(){
             return 1;
         }
         TagLib::Tag *tag = f.tag();
-        s.set_artist(tag->title().to8Bit(true));
-        s.set_title(tag->artist().to8Bit(true));
+        s.set_artist(tag->artist().to8Bit(true));
+        s.set_title(tag->title().to8Bit(true));
         s.set_album(tag->album().to8Bit(true));
         s.set_year_rel(tag->year());
 
