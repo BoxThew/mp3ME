@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/MP3ME.dir/src/Database.cpp.o"
+  "CMakeFiles/MP3ME.dir/src/Database.cpp.o.d"
   "CMakeFiles/MP3ME.dir/src/ListTest.cpp.o"
   "CMakeFiles/MP3ME.dir/src/ListTest.cpp.o.d"
   "CMakeFiles/MP3ME.dir/src/Song.cpp.o"

@@ -1,7 +1,9 @@
 
 #include "Database.hpp"
-
+#include "Song.hpp"
 #include <vector>
+
+std::vector<Song*> Database::songs{};
 
 
 Database::Database(){

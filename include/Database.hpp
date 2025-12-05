@@ -5,9 +5,10 @@
 #include "Song.hpp"
 
 class Database{
+public:
     static std::vector<Song*> songs;
 
-public:
+
     Database();
 
     static void add_song(Song* song);

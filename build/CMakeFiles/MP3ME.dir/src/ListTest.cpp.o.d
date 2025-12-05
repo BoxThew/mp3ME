@@ -249,4 +249,6 @@ CMakeFiles/MP3ME.dir/src/ListTest.cpp.o: \
  /usr/include/c++/13/bits/locale_conv.h /usr/include/c++/13/iomanip \
  /usr/include/c++/13/bits/quoted_string.h /usr/include/c++/13/sstream \
  /usr/include/c++/13/bits/sstream.tcc /usr/include/c++/13/codecvt \
- /usr/include/c++/13/bits/fs_dir.h /usr/include/c++/13/bits/fs_ops.h
+ /usr/include/c++/13/bits/fs_dir.h /usr/include/c++/13/bits/fs_ops.h \
+ /home/pleiades/Programming/Projects/mp3ME/include/Database.hpp \
+ /home/pleiades/Programming/Projects/mp3ME/include/Song.hpp
