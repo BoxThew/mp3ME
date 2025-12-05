@@ -25,8 +25,8 @@ void Song::add_genre(const std::string& genre){
 }
 
 
-std::string Song::get_title(){return title;}
-std::string Song::get_artist(){return artist;}
-std::string Song::get_album(){return album;}
-unsigned int Song::get_year_rel(){return year_rel;}
-std::vector<std::string> Song::get_genres(){return genres;}
+std::string Song::get_title() const{return title;}
+std::string Song::get_artist() const{return artist;}
+std::string Song::get_album() const{return album;}
+unsigned int Song::get_year_rel() const{return year_rel;}
+std::vector<std::string> Song::get_genres() const{return genres;}

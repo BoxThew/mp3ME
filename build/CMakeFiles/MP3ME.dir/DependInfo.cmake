@@ -11,6 +11,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/pleiades/Programming/Projects/mp3ME/src/Database.cpp" "CMakeFiles/MP3ME.dir/src/Database.cpp.o" "gcc" "CMakeFiles/MP3ME.dir/src/Database.cpp.o.d"
   "/home/pleiades/Programming/Projects/mp3ME/src/ListTest.cpp" "CMakeFiles/MP3ME.dir/src/ListTest.cpp.o" "gcc" "CMakeFiles/MP3ME.dir/src/ListTest.cpp.o.d"
   "/home/pleiades/Programming/Projects/mp3ME/src/Song.cpp" "CMakeFiles/MP3ME.dir/src/Song.cpp.o" "gcc" "CMakeFiles/MP3ME.dir/src/Song.cpp.o.d"
+  "/home/pleiades/Programming/Projects/mp3ME/src/SongSorting.cpp" "CMakeFiles/MP3ME.dir/src/SongSorting.cpp.o" "gcc" "CMakeFiles/MP3ME.dir/src/SongSorting.cpp.o.d"
   "/home/pleiades/Programming/Projects/mp3ME/src/test.cpp" "CMakeFiles/MP3ME.dir/src/test.cpp.o" "gcc" "CMakeFiles/MP3ME.dir/src/test.cpp.o.d"
   )
 

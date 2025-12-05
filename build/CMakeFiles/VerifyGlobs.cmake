@@ -8,6 +8,7 @@ set(OLD_GLOB
   "/home/pleiades/Programming/Projects/mp3ME/src/Database.cpp"
   "/home/pleiades/Programming/Projects/mp3ME/src/ListTest.cpp"
   "/home/pleiades/Programming/Projects/mp3ME/src/Song.cpp"
+  "/home/pleiades/Programming/Projects/mp3ME/src/SongSorting.cpp"
   "/home/pleiades/Programming/Projects/mp3ME/src/test.cpp"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")

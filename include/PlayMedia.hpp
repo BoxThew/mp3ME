@@ -3,24 +3,11 @@
 #include "Song.hpp"
 #include <vector>
 
-namespace Compare{
-    typedef bool (*Comparator)(Song, Song);
-
-    bool artists(Song s1, Song s2){
-        return s1.get_artist() <= s2.get_artist();
-    }
-
-    bool title(Song s1, Song s2){
-        return s1.get_title() <= s2.get_title();
-    }
-
-}
-
 
 class PlayMedia{
 
     std::vector<Song> queue;
-    
+
 
 
 public:

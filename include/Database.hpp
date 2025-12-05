@@ -2,18 +2,20 @@
 #define DATABASE_HPP
 
 #include <vector>
+#include <memory>
 #include "Song.hpp"
 
 class Database{
 public:
-    static std::vector<Song> songs;
+    static std::vector<std::unique_ptr<Song>> songs;
 
+    
 
     Database();
 
     static void add_song(const Song& song);
     static void remove_song(const Song& song);
-    static std::vector<Song>& get_songs();
+    static std::vector<std::unique_ptr<Song>>& get_songs();
 
 };
 
