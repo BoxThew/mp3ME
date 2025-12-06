@@ -656,173 +656,197 @@ sfml-audio/fast:
 	$(MAKE) $(MAKESILENT) -f external/SFML-3.0.2/src/SFML/Audio/CMakeFiles/sfml-audio.dir/build.make external/SFML-3.0.2/src/SFML/Audio/CMakeFiles/sfml-audio.dir/build
 .PHONY : sfml-audio/fast
 
-src/AudioTest.o: src/AudioTest.cpp.o
-.PHONY : src/AudioTest.o
+src/Data/Database.o: src/Data/Database.cpp.o
+.PHONY : src/Data/Database.o
 
 # target to build an object file
-src/AudioTest.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MP3ME.dir/build.make CMakeFiles/MP3ME.dir/src/AudioTest.cpp.o
-.PHONY : src/AudioTest.cpp.o
+src/Data/Database.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MP3ME.dir/build.make CMakeFiles/MP3ME.dir/src/Data/Database.cpp.o
+.PHONY : src/Data/Database.cpp.o
 
-src/AudioTest.i: src/AudioTest.cpp.i
-.PHONY : src/AudioTest.i
+src/Data/Database.i: src/Data/Database.cpp.i
+.PHONY : src/Data/Database.i
 
 # target to preprocess a source file
-src/AudioTest.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MP3ME.dir/build.make CMakeFiles/MP3ME.dir/src/AudioTest.cpp.i
-.PHONY : src/AudioTest.cpp.i
+src/Data/Database.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MP3ME.dir/build.make CMakeFiles/MP3ME.dir/src/Data/Database.cpp.i
+.PHONY : src/Data/Database.cpp.i
 
-src/AudioTest.s: src/AudioTest.cpp.s
-.PHONY : src/AudioTest.s
+src/Data/Database.s: src/Data/Database.cpp.s
+.PHONY : src/Data/Database.s
 
 # target to generate assembly for a file
-src/AudioTest.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MP3ME.dir/build.make CMakeFiles/MP3ME.dir/src/AudioTest.cpp.s
-.PHONY : src/AudioTest.cpp.s
+src/Data/Database.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MP3ME.dir/build.make CMakeFiles/MP3ME.dir/src/Data/Database.cpp.s
+.PHONY : src/Data/Database.cpp.s
 
-src/Database.o: src/Database.cpp.o
-.PHONY : src/Database.o
+src/Logic/PlayMedia.o: src/Logic/PlayMedia.cpp.o
+.PHONY : src/Logic/PlayMedia.o
 
 # target to build an object file
-src/Database.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MP3ME.dir/build.make CMakeFiles/MP3ME.dir/src/Database.cpp.o
-.PHONY : src/Database.cpp.o
+src/Logic/PlayMedia.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MP3ME.dir/build.make CMakeFiles/MP3ME.dir/src/Logic/PlayMedia.cpp.o
+.PHONY : src/Logic/PlayMedia.cpp.o
 
-src/Database.i: src/Database.cpp.i
-.PHONY : src/Database.i
+src/Logic/PlayMedia.i: src/Logic/PlayMedia.cpp.i
+.PHONY : src/Logic/PlayMedia.i
 
 # target to preprocess a source file
-src/Database.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MP3ME.dir/build.make CMakeFiles/MP3ME.dir/src/Database.cpp.i
-.PHONY : src/Database.cpp.i
+src/Logic/PlayMedia.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MP3ME.dir/build.make CMakeFiles/MP3ME.dir/src/Logic/PlayMedia.cpp.i
+.PHONY : src/Logic/PlayMedia.cpp.i
 
-src/Database.s: src/Database.cpp.s
-.PHONY : src/Database.s
+src/Logic/PlayMedia.s: src/Logic/PlayMedia.cpp.s
+.PHONY : src/Logic/PlayMedia.s
 
 # target to generate assembly for a file
-src/Database.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MP3ME.dir/build.make CMakeFiles/MP3ME.dir/src/Database.cpp.s
-.PHONY : src/Database.cpp.s
+src/Logic/PlayMedia.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MP3ME.dir/build.make CMakeFiles/MP3ME.dir/src/Logic/PlayMedia.cpp.s
+.PHONY : src/Logic/PlayMedia.cpp.s
 
-src/ListTest.o: src/ListTest.cpp.o
-.PHONY : src/ListTest.o
+src/Logic/SongSorting.o: src/Logic/SongSorting.cpp.o
+.PHONY : src/Logic/SongSorting.o
 
 # target to build an object file
-src/ListTest.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MP3ME.dir/build.make CMakeFiles/MP3ME.dir/src/ListTest.cpp.o
-.PHONY : src/ListTest.cpp.o
+src/Logic/SongSorting.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MP3ME.dir/build.make CMakeFiles/MP3ME.dir/src/Logic/SongSorting.cpp.o
+.PHONY : src/Logic/SongSorting.cpp.o
 
-src/ListTest.i: src/ListTest.cpp.i
-.PHONY : src/ListTest.i
+src/Logic/SongSorting.i: src/Logic/SongSorting.cpp.i
+.PHONY : src/Logic/SongSorting.i
 
 # target to preprocess a source file
-src/ListTest.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MP3ME.dir/build.make CMakeFiles/MP3ME.dir/src/ListTest.cpp.i
-.PHONY : src/ListTest.cpp.i
+src/Logic/SongSorting.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MP3ME.dir/build.make CMakeFiles/MP3ME.dir/src/Logic/SongSorting.cpp.i
+.PHONY : src/Logic/SongSorting.cpp.i
 
-src/ListTest.s: src/ListTest.cpp.s
-.PHONY : src/ListTest.s
+src/Logic/SongSorting.s: src/Logic/SongSorting.cpp.s
+.PHONY : src/Logic/SongSorting.s
 
 # target to generate assembly for a file
-src/ListTest.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MP3ME.dir/build.make CMakeFiles/MP3ME.dir/src/ListTest.cpp.s
-.PHONY : src/ListTest.cpp.s
+src/Logic/SongSorting.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MP3ME.dir/build.make CMakeFiles/MP3ME.dir/src/Logic/SongSorting.cpp.s
+.PHONY : src/Logic/SongSorting.cpp.s
 
-src/PlayMedia.o: src/PlayMedia.cpp.o
-.PHONY : src/PlayMedia.o
+src/Records/Song.o: src/Records/Song.cpp.o
+.PHONY : src/Records/Song.o
 
 # target to build an object file
-src/PlayMedia.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MP3ME.dir/build.make CMakeFiles/MP3ME.dir/src/PlayMedia.cpp.o
-.PHONY : src/PlayMedia.cpp.o
+src/Records/Song.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MP3ME.dir/build.make CMakeFiles/MP3ME.dir/src/Records/Song.cpp.o
+.PHONY : src/Records/Song.cpp.o
 
-src/PlayMedia.i: src/PlayMedia.cpp.i
-.PHONY : src/PlayMedia.i
+src/Records/Song.i: src/Records/Song.cpp.i
+.PHONY : src/Records/Song.i
 
 # target to preprocess a source file
-src/PlayMedia.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MP3ME.dir/build.make CMakeFiles/MP3ME.dir/src/PlayMedia.cpp.i
-.PHONY : src/PlayMedia.cpp.i
+src/Records/Song.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MP3ME.dir/build.make CMakeFiles/MP3ME.dir/src/Records/Song.cpp.i
+.PHONY : src/Records/Song.cpp.i
 
-src/PlayMedia.s: src/PlayMedia.cpp.s
-.PHONY : src/PlayMedia.s
+src/Records/Song.s: src/Records/Song.cpp.s
+.PHONY : src/Records/Song.s
 
 # target to generate assembly for a file
-src/PlayMedia.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MP3ME.dir/build.make CMakeFiles/MP3ME.dir/src/PlayMedia.cpp.s
-.PHONY : src/PlayMedia.cpp.s
+src/Records/Song.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MP3ME.dir/build.make CMakeFiles/MP3ME.dir/src/Records/Song.cpp.s
+.PHONY : src/Records/Song.cpp.s
 
-src/Song.o: src/Song.cpp.o
-.PHONY : src/Song.o
+src/Tests/AudioTest.o: src/Tests/AudioTest.cpp.o
+.PHONY : src/Tests/AudioTest.o
 
 # target to build an object file
-src/Song.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MP3ME.dir/build.make CMakeFiles/MP3ME.dir/src/Song.cpp.o
-.PHONY : src/Song.cpp.o
+src/Tests/AudioTest.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MP3ME.dir/build.make CMakeFiles/MP3ME.dir/src/Tests/AudioTest.cpp.o
+.PHONY : src/Tests/AudioTest.cpp.o
 
-src/Song.i: src/Song.cpp.i
-.PHONY : src/Song.i
+src/Tests/AudioTest.i: src/Tests/AudioTest.cpp.i
+.PHONY : src/Tests/AudioTest.i
 
 # target to preprocess a source file
-src/Song.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MP3ME.dir/build.make CMakeFiles/MP3ME.dir/src/Song.cpp.i
-.PHONY : src/Song.cpp.i
+src/Tests/AudioTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MP3ME.dir/build.make CMakeFiles/MP3ME.dir/src/Tests/AudioTest.cpp.i
+.PHONY : src/Tests/AudioTest.cpp.i
 
-src/Song.s: src/Song.cpp.s
-.PHONY : src/Song.s
+src/Tests/AudioTest.s: src/Tests/AudioTest.cpp.s
+.PHONY : src/Tests/AudioTest.s
 
 # target to generate assembly for a file
-src/Song.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MP3ME.dir/build.make CMakeFiles/MP3ME.dir/src/Song.cpp.s
-.PHONY : src/Song.cpp.s
+src/Tests/AudioTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MP3ME.dir/build.make CMakeFiles/MP3ME.dir/src/Tests/AudioTest.cpp.s
+.PHONY : src/Tests/AudioTest.cpp.s
 
-src/SongSorting.o: src/SongSorting.cpp.o
-.PHONY : src/SongSorting.o
+src/Tests/ListTest.o: src/Tests/ListTest.cpp.o
+.PHONY : src/Tests/ListTest.o
 
 # target to build an object file
-src/SongSorting.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MP3ME.dir/build.make CMakeFiles/MP3ME.dir/src/SongSorting.cpp.o
-.PHONY : src/SongSorting.cpp.o
+src/Tests/ListTest.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MP3ME.dir/build.make CMakeFiles/MP3ME.dir/src/Tests/ListTest.cpp.o
+.PHONY : src/Tests/ListTest.cpp.o
 
-src/SongSorting.i: src/SongSorting.cpp.i
-.PHONY : src/SongSorting.i
+src/Tests/ListTest.i: src/Tests/ListTest.cpp.i
+.PHONY : src/Tests/ListTest.i
 
 # target to preprocess a source file
-src/SongSorting.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MP3ME.dir/build.make CMakeFiles/MP3ME.dir/src/SongSorting.cpp.i
-.PHONY : src/SongSorting.cpp.i
+src/Tests/ListTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MP3ME.dir/build.make CMakeFiles/MP3ME.dir/src/Tests/ListTest.cpp.i
+.PHONY : src/Tests/ListTest.cpp.i
 
-src/SongSorting.s: src/SongSorting.cpp.s
-.PHONY : src/SongSorting.s
+src/Tests/ListTest.s: src/Tests/ListTest.cpp.s
+.PHONY : src/Tests/ListTest.s
 
 # target to generate assembly for a file
-src/SongSorting.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MP3ME.dir/build.make CMakeFiles/MP3ME.dir/src/SongSorting.cpp.s
-.PHONY : src/SongSorting.cpp.s
+src/Tests/ListTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MP3ME.dir/build.make CMakeFiles/MP3ME.dir/src/Tests/ListTest.cpp.s
+.PHONY : src/Tests/ListTest.cpp.s
 
-src/test.o: src/test.cpp.o
-.PHONY : src/test.o
+src/Tests/test.o: src/Tests/test.cpp.o
+.PHONY : src/Tests/test.o
 
 # target to build an object file
-src/test.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MP3ME.dir/build.make CMakeFiles/MP3ME.dir/src/test.cpp.o
-.PHONY : src/test.cpp.o
+src/Tests/test.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MP3ME.dir/build.make CMakeFiles/MP3ME.dir/src/Tests/test.cpp.o
+.PHONY : src/Tests/test.cpp.o
 
-src/test.i: src/test.cpp.i
-.PHONY : src/test.i
+src/Tests/test.i: src/Tests/test.cpp.i
+.PHONY : src/Tests/test.i
 
 # target to preprocess a source file
-src/test.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MP3ME.dir/build.make CMakeFiles/MP3ME.dir/src/test.cpp.i
-.PHONY : src/test.cpp.i
+src/Tests/test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MP3ME.dir/build.make CMakeFiles/MP3ME.dir/src/Tests/test.cpp.i
+.PHONY : src/Tests/test.cpp.i
 
-src/test.s: src/test.cpp.s
-.PHONY : src/test.s
+src/Tests/test.s: src/Tests/test.cpp.s
+.PHONY : src/Tests/test.s
 
 # target to generate assembly for a file
-src/test.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MP3ME.dir/build.make CMakeFiles/MP3ME.dir/src/test.cpp.s
-.PHONY : src/test.cpp.s
+src/Tests/test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MP3ME.dir/build.make CMakeFiles/MP3ME.dir/src/Tests/test.cpp.s
+.PHONY : src/Tests/test.cpp.s
+
+src/UI/TUI.o: src/UI/TUI.cpp.o
+.PHONY : src/UI/TUI.o
+
+# target to build an object file
+src/UI/TUI.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MP3ME.dir/build.make CMakeFiles/MP3ME.dir/src/UI/TUI.cpp.o
+.PHONY : src/UI/TUI.cpp.o
+
+src/UI/TUI.i: src/UI/TUI.cpp.i
+.PHONY : src/UI/TUI.i
+
+# target to preprocess a source file
+src/UI/TUI.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MP3ME.dir/build.make CMakeFiles/MP3ME.dir/src/UI/TUI.cpp.i
+.PHONY : src/UI/TUI.cpp.i
+
+src/UI/TUI.s: src/UI/TUI.cpp.s
+.PHONY : src/UI/TUI.s
+
+# target to generate assembly for a file
+src/UI/TUI.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MP3ME.dir/build.make CMakeFiles/MP3ME.dir/src/UI/TUI.cpp.s
+.PHONY : src/UI/TUI.cpp.s
 
 # Help Target
 help:
@@ -874,27 +898,30 @@ help:
 	@echo "... sfml-window"
 	@echo "... tag"
 	@echo "... tag_c"
-	@echo "... src/AudioTest.o"
-	@echo "... src/AudioTest.i"
-	@echo "... src/AudioTest.s"
-	@echo "... src/Database.o"
-	@echo "... src/Database.i"
-	@echo "... src/Database.s"
-	@echo "... src/ListTest.o"
-	@echo "... src/ListTest.i"
-	@echo "... src/ListTest.s"
-	@echo "... src/PlayMedia.o"
-	@echo "... src/PlayMedia.i"
-	@echo "... src/PlayMedia.s"
-	@echo "... src/Song.o"
-	@echo "... src/Song.i"
-	@echo "... src/Song.s"
-	@echo "... src/SongSorting.o"
-	@echo "... src/SongSorting.i"
-	@echo "... src/SongSorting.s"
-	@echo "... src/test.o"
-	@echo "... src/test.i"
-	@echo "... src/test.s"
+	@echo "... src/Data/Database.o"
+	@echo "... src/Data/Database.i"
+	@echo "... src/Data/Database.s"
+	@echo "... src/Logic/PlayMedia.o"
+	@echo "... src/Logic/PlayMedia.i"
+	@echo "... src/Logic/PlayMedia.s"
+	@echo "... src/Logic/SongSorting.o"
+	@echo "... src/Logic/SongSorting.i"
+	@echo "... src/Logic/SongSorting.s"
+	@echo "... src/Records/Song.o"
+	@echo "... src/Records/Song.i"
+	@echo "... src/Records/Song.s"
+	@echo "... src/Tests/AudioTest.o"
+	@echo "... src/Tests/AudioTest.i"
+	@echo "... src/Tests/AudioTest.s"
+	@echo "... src/Tests/ListTest.o"
+	@echo "... src/Tests/ListTest.i"
+	@echo "... src/Tests/ListTest.s"
+	@echo "... src/Tests/test.o"
+	@echo "... src/Tests/test.i"
+	@echo "... src/Tests/test.s"
+	@echo "... src/UI/TUI.o"
+	@echo "... src/UI/TUI.i"
+	@echo "... src/UI/TUI.s"
 .PHONY : help
 
 

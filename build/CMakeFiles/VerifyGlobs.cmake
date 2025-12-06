@@ -5,13 +5,14 @@ cmake_policy(SET CMP0009 NEW)
 # PROJECT_SOURCES at CMakeLists.txt:11 (file)
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/home/pleiades/Programming/Projects/mp3ME/src/*.cpp")
 set(OLD_GLOB
-  "/home/pleiades/Programming/Projects/mp3ME/src/AudioTest.cpp"
-  "/home/pleiades/Programming/Projects/mp3ME/src/Database.cpp"
-  "/home/pleiades/Programming/Projects/mp3ME/src/ListTest.cpp"
-  "/home/pleiades/Programming/Projects/mp3ME/src/PlayMedia.cpp"
-  "/home/pleiades/Programming/Projects/mp3ME/src/Song.cpp"
-  "/home/pleiades/Programming/Projects/mp3ME/src/SongSorting.cpp"
-  "/home/pleiades/Programming/Projects/mp3ME/src/test.cpp"
+  "/home/pleiades/Programming/Projects/mp3ME/src/Data/Database.cpp"
+  "/home/pleiades/Programming/Projects/mp3ME/src/Logic/PlayMedia.cpp"
+  "/home/pleiades/Programming/Projects/mp3ME/src/Logic/SongSorting.cpp"
+  "/home/pleiades/Programming/Projects/mp3ME/src/Records/Song.cpp"
+  "/home/pleiades/Programming/Projects/mp3ME/src/Tests/AudioTest.cpp"
+  "/home/pleiades/Programming/Projects/mp3ME/src/Tests/ListTest.cpp"
+  "/home/pleiades/Programming/Projects/mp3ME/src/Tests/test.cpp"
+  "/home/pleiades/Programming/Projects/mp3ME/src/UI/TUI.cpp"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")

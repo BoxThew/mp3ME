@@ -73,141 +73,141 @@ external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/Clock.cpp.o: exte
 external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/Clock.cpp.o: /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/System/Clock.cpp
 external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/Clock.cpp.o: external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/pleiades/Programming/Projects/mp3ME/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/Clock.cpp.o"
-	cd /home/pleiades/Programming/Projects/mp3ME/build/external/SFML-3.0.2/src/SFML/System && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/Clock.cpp.o -MF CMakeFiles/sfml-system.dir/Clock.cpp.o.d -o CMakeFiles/sfml-system.dir/Clock.cpp.o -c /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/System/Clock.cpp
+	cd /home/pleiades/Programming/Projects/mp3ME/build/external/SFML-3.0.2/src/SFML/System && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/Clock.cpp.o -MF CMakeFiles/sfml-system.dir/Clock.cpp.o.d -o CMakeFiles/sfml-system.dir/Clock.cpp.o -c /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/System/Clock.cpp
 
 external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/Clock.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sfml-system.dir/Clock.cpp.i"
-	cd /home/pleiades/Programming/Projects/mp3ME/build/external/SFML-3.0.2/src/SFML/System && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/System/Clock.cpp > CMakeFiles/sfml-system.dir/Clock.cpp.i
+	cd /home/pleiades/Programming/Projects/mp3ME/build/external/SFML-3.0.2/src/SFML/System && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/System/Clock.cpp > CMakeFiles/sfml-system.dir/Clock.cpp.i
 
 external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/Clock.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sfml-system.dir/Clock.cpp.s"
-	cd /home/pleiades/Programming/Projects/mp3ME/build/external/SFML-3.0.2/src/SFML/System && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/System/Clock.cpp -o CMakeFiles/sfml-system.dir/Clock.cpp.s
+	cd /home/pleiades/Programming/Projects/mp3ME/build/external/SFML-3.0.2/src/SFML/System && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/System/Clock.cpp -o CMakeFiles/sfml-system.dir/Clock.cpp.s
 
 external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/Err.cpp.o: external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/flags.make
 external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/Err.cpp.o: /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/System/Err.cpp
 external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/Err.cpp.o: external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/pleiades/Programming/Projects/mp3ME/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/Err.cpp.o"
-	cd /home/pleiades/Programming/Projects/mp3ME/build/external/SFML-3.0.2/src/SFML/System && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/Err.cpp.o -MF CMakeFiles/sfml-system.dir/Err.cpp.o.d -o CMakeFiles/sfml-system.dir/Err.cpp.o -c /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/System/Err.cpp
+	cd /home/pleiades/Programming/Projects/mp3ME/build/external/SFML-3.0.2/src/SFML/System && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/Err.cpp.o -MF CMakeFiles/sfml-system.dir/Err.cpp.o.d -o CMakeFiles/sfml-system.dir/Err.cpp.o -c /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/System/Err.cpp
 
 external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/Err.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sfml-system.dir/Err.cpp.i"
-	cd /home/pleiades/Programming/Projects/mp3ME/build/external/SFML-3.0.2/src/SFML/System && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/System/Err.cpp > CMakeFiles/sfml-system.dir/Err.cpp.i
+	cd /home/pleiades/Programming/Projects/mp3ME/build/external/SFML-3.0.2/src/SFML/System && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/System/Err.cpp > CMakeFiles/sfml-system.dir/Err.cpp.i
 
 external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/Err.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sfml-system.dir/Err.cpp.s"
-	cd /home/pleiades/Programming/Projects/mp3ME/build/external/SFML-3.0.2/src/SFML/System && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/System/Err.cpp -o CMakeFiles/sfml-system.dir/Err.cpp.s
+	cd /home/pleiades/Programming/Projects/mp3ME/build/external/SFML-3.0.2/src/SFML/System && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/System/Err.cpp -o CMakeFiles/sfml-system.dir/Err.cpp.s
 
 external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/Sleep.cpp.o: external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/flags.make
 external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/Sleep.cpp.o: /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/System/Sleep.cpp
 external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/Sleep.cpp.o: external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/pleiades/Programming/Projects/mp3ME/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/Sleep.cpp.o"
-	cd /home/pleiades/Programming/Projects/mp3ME/build/external/SFML-3.0.2/src/SFML/System && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/Sleep.cpp.o -MF CMakeFiles/sfml-system.dir/Sleep.cpp.o.d -o CMakeFiles/sfml-system.dir/Sleep.cpp.o -c /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/System/Sleep.cpp
+	cd /home/pleiades/Programming/Projects/mp3ME/build/external/SFML-3.0.2/src/SFML/System && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/Sleep.cpp.o -MF CMakeFiles/sfml-system.dir/Sleep.cpp.o.d -o CMakeFiles/sfml-system.dir/Sleep.cpp.o -c /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/System/Sleep.cpp
 
 external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/Sleep.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sfml-system.dir/Sleep.cpp.i"
-	cd /home/pleiades/Programming/Projects/mp3ME/build/external/SFML-3.0.2/src/SFML/System && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/System/Sleep.cpp > CMakeFiles/sfml-system.dir/Sleep.cpp.i
+	cd /home/pleiades/Programming/Projects/mp3ME/build/external/SFML-3.0.2/src/SFML/System && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/System/Sleep.cpp > CMakeFiles/sfml-system.dir/Sleep.cpp.i
 
 external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/Sleep.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sfml-system.dir/Sleep.cpp.s"
-	cd /home/pleiades/Programming/Projects/mp3ME/build/external/SFML-3.0.2/src/SFML/System && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/System/Sleep.cpp -o CMakeFiles/sfml-system.dir/Sleep.cpp.s
+	cd /home/pleiades/Programming/Projects/mp3ME/build/external/SFML-3.0.2/src/SFML/System && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/System/Sleep.cpp -o CMakeFiles/sfml-system.dir/Sleep.cpp.s
 
 external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/String.cpp.o: external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/flags.make
 external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/String.cpp.o: /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/System/String.cpp
 external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/String.cpp.o: external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/pleiades/Programming/Projects/mp3ME/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/String.cpp.o"
-	cd /home/pleiades/Programming/Projects/mp3ME/build/external/SFML-3.0.2/src/SFML/System && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/String.cpp.o -MF CMakeFiles/sfml-system.dir/String.cpp.o.d -o CMakeFiles/sfml-system.dir/String.cpp.o -c /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/System/String.cpp
+	cd /home/pleiades/Programming/Projects/mp3ME/build/external/SFML-3.0.2/src/SFML/System && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/String.cpp.o -MF CMakeFiles/sfml-system.dir/String.cpp.o.d -o CMakeFiles/sfml-system.dir/String.cpp.o -c /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/System/String.cpp
 
 external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/String.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sfml-system.dir/String.cpp.i"
-	cd /home/pleiades/Programming/Projects/mp3ME/build/external/SFML-3.0.2/src/SFML/System && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/System/String.cpp > CMakeFiles/sfml-system.dir/String.cpp.i
+	cd /home/pleiades/Programming/Projects/mp3ME/build/external/SFML-3.0.2/src/SFML/System && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/System/String.cpp > CMakeFiles/sfml-system.dir/String.cpp.i
 
 external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/String.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sfml-system.dir/String.cpp.s"
-	cd /home/pleiades/Programming/Projects/mp3ME/build/external/SFML-3.0.2/src/SFML/System && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/System/String.cpp -o CMakeFiles/sfml-system.dir/String.cpp.s
+	cd /home/pleiades/Programming/Projects/mp3ME/build/external/SFML-3.0.2/src/SFML/System && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/System/String.cpp -o CMakeFiles/sfml-system.dir/String.cpp.s
 
 external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/Utils.cpp.o: external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/flags.make
 external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/Utils.cpp.o: /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/System/Utils.cpp
 external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/Utils.cpp.o: external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/pleiades/Programming/Projects/mp3ME/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/Utils.cpp.o"
-	cd /home/pleiades/Programming/Projects/mp3ME/build/external/SFML-3.0.2/src/SFML/System && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/Utils.cpp.o -MF CMakeFiles/sfml-system.dir/Utils.cpp.o.d -o CMakeFiles/sfml-system.dir/Utils.cpp.o -c /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/System/Utils.cpp
+	cd /home/pleiades/Programming/Projects/mp3ME/build/external/SFML-3.0.2/src/SFML/System && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/Utils.cpp.o -MF CMakeFiles/sfml-system.dir/Utils.cpp.o.d -o CMakeFiles/sfml-system.dir/Utils.cpp.o -c /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/System/Utils.cpp
 
 external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/Utils.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sfml-system.dir/Utils.cpp.i"
-	cd /home/pleiades/Programming/Projects/mp3ME/build/external/SFML-3.0.2/src/SFML/System && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/System/Utils.cpp > CMakeFiles/sfml-system.dir/Utils.cpp.i
+	cd /home/pleiades/Programming/Projects/mp3ME/build/external/SFML-3.0.2/src/SFML/System && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/System/Utils.cpp > CMakeFiles/sfml-system.dir/Utils.cpp.i
 
 external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/Utils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sfml-system.dir/Utils.cpp.s"
-	cd /home/pleiades/Programming/Projects/mp3ME/build/external/SFML-3.0.2/src/SFML/System && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/System/Utils.cpp -o CMakeFiles/sfml-system.dir/Utils.cpp.s
+	cd /home/pleiades/Programming/Projects/mp3ME/build/external/SFML-3.0.2/src/SFML/System && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/System/Utils.cpp -o CMakeFiles/sfml-system.dir/Utils.cpp.s
 
 external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/Vector2.cpp.o: external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/flags.make
 external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/Vector2.cpp.o: /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/System/Vector2.cpp
 external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/Vector2.cpp.o: external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/pleiades/Programming/Projects/mp3ME/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/Vector2.cpp.o"
-	cd /home/pleiades/Programming/Projects/mp3ME/build/external/SFML-3.0.2/src/SFML/System && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/Vector2.cpp.o -MF CMakeFiles/sfml-system.dir/Vector2.cpp.o.d -o CMakeFiles/sfml-system.dir/Vector2.cpp.o -c /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/System/Vector2.cpp
+	cd /home/pleiades/Programming/Projects/mp3ME/build/external/SFML-3.0.2/src/SFML/System && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/Vector2.cpp.o -MF CMakeFiles/sfml-system.dir/Vector2.cpp.o.d -o CMakeFiles/sfml-system.dir/Vector2.cpp.o -c /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/System/Vector2.cpp
 
 external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/Vector2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sfml-system.dir/Vector2.cpp.i"
-	cd /home/pleiades/Programming/Projects/mp3ME/build/external/SFML-3.0.2/src/SFML/System && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/System/Vector2.cpp > CMakeFiles/sfml-system.dir/Vector2.cpp.i
+	cd /home/pleiades/Programming/Projects/mp3ME/build/external/SFML-3.0.2/src/SFML/System && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/System/Vector2.cpp > CMakeFiles/sfml-system.dir/Vector2.cpp.i
 
 external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/Vector2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sfml-system.dir/Vector2.cpp.s"
-	cd /home/pleiades/Programming/Projects/mp3ME/build/external/SFML-3.0.2/src/SFML/System && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/System/Vector2.cpp -o CMakeFiles/sfml-system.dir/Vector2.cpp.s
+	cd /home/pleiades/Programming/Projects/mp3ME/build/external/SFML-3.0.2/src/SFML/System && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/System/Vector2.cpp -o CMakeFiles/sfml-system.dir/Vector2.cpp.s
 
 external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/Vector3.cpp.o: external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/flags.make
 external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/Vector3.cpp.o: /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/System/Vector3.cpp
 external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/Vector3.cpp.o: external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/pleiades/Programming/Projects/mp3ME/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/Vector3.cpp.o"
-	cd /home/pleiades/Programming/Projects/mp3ME/build/external/SFML-3.0.2/src/SFML/System && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/Vector3.cpp.o -MF CMakeFiles/sfml-system.dir/Vector3.cpp.o.d -o CMakeFiles/sfml-system.dir/Vector3.cpp.o -c /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/System/Vector3.cpp
+	cd /home/pleiades/Programming/Projects/mp3ME/build/external/SFML-3.0.2/src/SFML/System && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/Vector3.cpp.o -MF CMakeFiles/sfml-system.dir/Vector3.cpp.o.d -o CMakeFiles/sfml-system.dir/Vector3.cpp.o -c /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/System/Vector3.cpp
 
 external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/Vector3.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sfml-system.dir/Vector3.cpp.i"
-	cd /home/pleiades/Programming/Projects/mp3ME/build/external/SFML-3.0.2/src/SFML/System && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/System/Vector3.cpp > CMakeFiles/sfml-system.dir/Vector3.cpp.i
+	cd /home/pleiades/Programming/Projects/mp3ME/build/external/SFML-3.0.2/src/SFML/System && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/System/Vector3.cpp > CMakeFiles/sfml-system.dir/Vector3.cpp.i
 
 external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/Vector3.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sfml-system.dir/Vector3.cpp.s"
-	cd /home/pleiades/Programming/Projects/mp3ME/build/external/SFML-3.0.2/src/SFML/System && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/System/Vector3.cpp -o CMakeFiles/sfml-system.dir/Vector3.cpp.s
+	cd /home/pleiades/Programming/Projects/mp3ME/build/external/SFML-3.0.2/src/SFML/System && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/System/Vector3.cpp -o CMakeFiles/sfml-system.dir/Vector3.cpp.s
 
 external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/FileInputStream.cpp.o: external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/flags.make
 external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/FileInputStream.cpp.o: /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/System/FileInputStream.cpp
 external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/FileInputStream.cpp.o: external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/pleiades/Programming/Projects/mp3ME/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/FileInputStream.cpp.o"
-	cd /home/pleiades/Programming/Projects/mp3ME/build/external/SFML-3.0.2/src/SFML/System && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/FileInputStream.cpp.o -MF CMakeFiles/sfml-system.dir/FileInputStream.cpp.o.d -o CMakeFiles/sfml-system.dir/FileInputStream.cpp.o -c /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/System/FileInputStream.cpp
+	cd /home/pleiades/Programming/Projects/mp3ME/build/external/SFML-3.0.2/src/SFML/System && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/FileInputStream.cpp.o -MF CMakeFiles/sfml-system.dir/FileInputStream.cpp.o.d -o CMakeFiles/sfml-system.dir/FileInputStream.cpp.o -c /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/System/FileInputStream.cpp
 
 external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/FileInputStream.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sfml-system.dir/FileInputStream.cpp.i"
-	cd /home/pleiades/Programming/Projects/mp3ME/build/external/SFML-3.0.2/src/SFML/System && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/System/FileInputStream.cpp > CMakeFiles/sfml-system.dir/FileInputStream.cpp.i
+	cd /home/pleiades/Programming/Projects/mp3ME/build/external/SFML-3.0.2/src/SFML/System && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/System/FileInputStream.cpp > CMakeFiles/sfml-system.dir/FileInputStream.cpp.i
 
 external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/FileInputStream.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sfml-system.dir/FileInputStream.cpp.s"
-	cd /home/pleiades/Programming/Projects/mp3ME/build/external/SFML-3.0.2/src/SFML/System && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/System/FileInputStream.cpp -o CMakeFiles/sfml-system.dir/FileInputStream.cpp.s
+	cd /home/pleiades/Programming/Projects/mp3ME/build/external/SFML-3.0.2/src/SFML/System && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/System/FileInputStream.cpp -o CMakeFiles/sfml-system.dir/FileInputStream.cpp.s
 
 external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/MemoryInputStream.cpp.o: external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/flags.make
 external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/MemoryInputStream.cpp.o: /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/System/MemoryInputStream.cpp
 external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/MemoryInputStream.cpp.o: external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/pleiades/Programming/Projects/mp3ME/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/MemoryInputStream.cpp.o"
-	cd /home/pleiades/Programming/Projects/mp3ME/build/external/SFML-3.0.2/src/SFML/System && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/MemoryInputStream.cpp.o -MF CMakeFiles/sfml-system.dir/MemoryInputStream.cpp.o.d -o CMakeFiles/sfml-system.dir/MemoryInputStream.cpp.o -c /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/System/MemoryInputStream.cpp
+	cd /home/pleiades/Programming/Projects/mp3ME/build/external/SFML-3.0.2/src/SFML/System && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/MemoryInputStream.cpp.o -MF CMakeFiles/sfml-system.dir/MemoryInputStream.cpp.o.d -o CMakeFiles/sfml-system.dir/MemoryInputStream.cpp.o -c /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/System/MemoryInputStream.cpp
 
 external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/MemoryInputStream.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sfml-system.dir/MemoryInputStream.cpp.i"
-	cd /home/pleiades/Programming/Projects/mp3ME/build/external/SFML-3.0.2/src/SFML/System && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/System/MemoryInputStream.cpp > CMakeFiles/sfml-system.dir/MemoryInputStream.cpp.i
+	cd /home/pleiades/Programming/Projects/mp3ME/build/external/SFML-3.0.2/src/SFML/System && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/System/MemoryInputStream.cpp > CMakeFiles/sfml-system.dir/MemoryInputStream.cpp.i
 
 external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/MemoryInputStream.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sfml-system.dir/MemoryInputStream.cpp.s"
-	cd /home/pleiades/Programming/Projects/mp3ME/build/external/SFML-3.0.2/src/SFML/System && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/System/MemoryInputStream.cpp -o CMakeFiles/sfml-system.dir/MemoryInputStream.cpp.s
+	cd /home/pleiades/Programming/Projects/mp3ME/build/external/SFML-3.0.2/src/SFML/System && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/System/MemoryInputStream.cpp -o CMakeFiles/sfml-system.dir/MemoryInputStream.cpp.s
 
 external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/Unix/SleepImpl.cpp.o: external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/flags.make
 external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/Unix/SleepImpl.cpp.o: /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/System/Unix/SleepImpl.cpp
 external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/Unix/SleepImpl.cpp.o: external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/pleiades/Programming/Projects/mp3ME/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/Unix/SleepImpl.cpp.o"
-	cd /home/pleiades/Programming/Projects/mp3ME/build/external/SFML-3.0.2/src/SFML/System && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/Unix/SleepImpl.cpp.o -MF CMakeFiles/sfml-system.dir/Unix/SleepImpl.cpp.o.d -o CMakeFiles/sfml-system.dir/Unix/SleepImpl.cpp.o -c /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/System/Unix/SleepImpl.cpp
+	cd /home/pleiades/Programming/Projects/mp3ME/build/external/SFML-3.0.2/src/SFML/System && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/Unix/SleepImpl.cpp.o -MF CMakeFiles/sfml-system.dir/Unix/SleepImpl.cpp.o.d -o CMakeFiles/sfml-system.dir/Unix/SleepImpl.cpp.o -c /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/System/Unix/SleepImpl.cpp
 
 external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/Unix/SleepImpl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sfml-system.dir/Unix/SleepImpl.cpp.i"
-	cd /home/pleiades/Programming/Projects/mp3ME/build/external/SFML-3.0.2/src/SFML/System && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/System/Unix/SleepImpl.cpp > CMakeFiles/sfml-system.dir/Unix/SleepImpl.cpp.i
+	cd /home/pleiades/Programming/Projects/mp3ME/build/external/SFML-3.0.2/src/SFML/System && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/System/Unix/SleepImpl.cpp > CMakeFiles/sfml-system.dir/Unix/SleepImpl.cpp.i
 
 external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/Unix/SleepImpl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sfml-system.dir/Unix/SleepImpl.cpp.s"
-	cd /home/pleiades/Programming/Projects/mp3ME/build/external/SFML-3.0.2/src/SFML/System && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/System/Unix/SleepImpl.cpp -o CMakeFiles/sfml-system.dir/Unix/SleepImpl.cpp.s
+	cd /home/pleiades/Programming/Projects/mp3ME/build/external/SFML-3.0.2/src/SFML/System && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/System/Unix/SleepImpl.cpp -o CMakeFiles/sfml-system.dir/Unix/SleepImpl.cpp.s
 
 # Object files for target sfml-system
 sfml__system_OBJECTS = \
@@ -225,24 +225,24 @@ sfml__system_OBJECTS = \
 # External object files for target sfml-system
 sfml__system_EXTERNAL_OBJECTS =
 
-external/SFML-3.0.2/lib/libsfml-system.a: external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/Clock.cpp.o
-external/SFML-3.0.2/lib/libsfml-system.a: external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/Err.cpp.o
-external/SFML-3.0.2/lib/libsfml-system.a: external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/Sleep.cpp.o
-external/SFML-3.0.2/lib/libsfml-system.a: external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/String.cpp.o
-external/SFML-3.0.2/lib/libsfml-system.a: external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/Utils.cpp.o
-external/SFML-3.0.2/lib/libsfml-system.a: external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/Vector2.cpp.o
-external/SFML-3.0.2/lib/libsfml-system.a: external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/Vector3.cpp.o
-external/SFML-3.0.2/lib/libsfml-system.a: external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/FileInputStream.cpp.o
-external/SFML-3.0.2/lib/libsfml-system.a: external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/MemoryInputStream.cpp.o
-external/SFML-3.0.2/lib/libsfml-system.a: external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/Unix/SleepImpl.cpp.o
-external/SFML-3.0.2/lib/libsfml-system.a: external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/build.make
-external/SFML-3.0.2/lib/libsfml-system.a: external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/pleiades/Programming/Projects/mp3ME/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX static library ../../../lib/libsfml-system.a"
+external/SFML-3.0.2/lib/libsfml-system-s-d.a: external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/Clock.cpp.o
+external/SFML-3.0.2/lib/libsfml-system-s-d.a: external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/Err.cpp.o
+external/SFML-3.0.2/lib/libsfml-system-s-d.a: external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/Sleep.cpp.o
+external/SFML-3.0.2/lib/libsfml-system-s-d.a: external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/String.cpp.o
+external/SFML-3.0.2/lib/libsfml-system-s-d.a: external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/Utils.cpp.o
+external/SFML-3.0.2/lib/libsfml-system-s-d.a: external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/Vector2.cpp.o
+external/SFML-3.0.2/lib/libsfml-system-s-d.a: external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/Vector3.cpp.o
+external/SFML-3.0.2/lib/libsfml-system-s-d.a: external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/FileInputStream.cpp.o
+external/SFML-3.0.2/lib/libsfml-system-s-d.a: external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/MemoryInputStream.cpp.o
+external/SFML-3.0.2/lib/libsfml-system-s-d.a: external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/Unix/SleepImpl.cpp.o
+external/SFML-3.0.2/lib/libsfml-system-s-d.a: external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/build.make
+external/SFML-3.0.2/lib/libsfml-system-s-d.a: external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/pleiades/Programming/Projects/mp3ME/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX static library ../../../lib/libsfml-system-s-d.a"
 	cd /home/pleiades/Programming/Projects/mp3ME/build/external/SFML-3.0.2/src/SFML/System && $(CMAKE_COMMAND) -P CMakeFiles/sfml-system.dir/cmake_clean_target.cmake
 	cd /home/pleiades/Programming/Projects/mp3ME/build/external/SFML-3.0.2/src/SFML/System && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sfml-system.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/build: external/SFML-3.0.2/lib/libsfml-system.a
+external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/build: external/SFML-3.0.2/lib/libsfml-system-s-d.a
 .PHONY : external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/build
 
 external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/clean:
