@@ -69,10 +69,24 @@ include CMakeFiles/MP3ME.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/MP3ME.dir/flags.make
 
+CMakeFiles/MP3ME.dir/src/AudioTest.cpp.o: CMakeFiles/MP3ME.dir/flags.make
+CMakeFiles/MP3ME.dir/src/AudioTest.cpp.o: /home/pleiades/Programming/Projects/mp3ME/src/AudioTest.cpp
+CMakeFiles/MP3ME.dir/src/AudioTest.cpp.o: CMakeFiles/MP3ME.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/pleiades/Programming/Projects/mp3ME/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MP3ME.dir/src/AudioTest.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MP3ME.dir/src/AudioTest.cpp.o -MF CMakeFiles/MP3ME.dir/src/AudioTest.cpp.o.d -o CMakeFiles/MP3ME.dir/src/AudioTest.cpp.o -c /home/pleiades/Programming/Projects/mp3ME/src/AudioTest.cpp
+
+CMakeFiles/MP3ME.dir/src/AudioTest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MP3ME.dir/src/AudioTest.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pleiades/Programming/Projects/mp3ME/src/AudioTest.cpp > CMakeFiles/MP3ME.dir/src/AudioTest.cpp.i
+
+CMakeFiles/MP3ME.dir/src/AudioTest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MP3ME.dir/src/AudioTest.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pleiades/Programming/Projects/mp3ME/src/AudioTest.cpp -o CMakeFiles/MP3ME.dir/src/AudioTest.cpp.s
+
 CMakeFiles/MP3ME.dir/src/Database.cpp.o: CMakeFiles/MP3ME.dir/flags.make
 CMakeFiles/MP3ME.dir/src/Database.cpp.o: /home/pleiades/Programming/Projects/mp3ME/src/Database.cpp
 CMakeFiles/MP3ME.dir/src/Database.cpp.o: CMakeFiles/MP3ME.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/pleiades/Programming/Projects/mp3ME/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MP3ME.dir/src/Database.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/pleiades/Programming/Projects/mp3ME/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/MP3ME.dir/src/Database.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MP3ME.dir/src/Database.cpp.o -MF CMakeFiles/MP3ME.dir/src/Database.cpp.o.d -o CMakeFiles/MP3ME.dir/src/Database.cpp.o -c /home/pleiades/Programming/Projects/mp3ME/src/Database.cpp
 
 CMakeFiles/MP3ME.dir/src/Database.cpp.i: cmake_force
@@ -86,7 +100,7 @@ CMakeFiles/MP3ME.dir/src/Database.cpp.s: cmake_force
 CMakeFiles/MP3ME.dir/src/ListTest.cpp.o: CMakeFiles/MP3ME.dir/flags.make
 CMakeFiles/MP3ME.dir/src/ListTest.cpp.o: /home/pleiades/Programming/Projects/mp3ME/src/ListTest.cpp
 CMakeFiles/MP3ME.dir/src/ListTest.cpp.o: CMakeFiles/MP3ME.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/pleiades/Programming/Projects/mp3ME/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/MP3ME.dir/src/ListTest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/pleiades/Programming/Projects/mp3ME/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/MP3ME.dir/src/ListTest.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MP3ME.dir/src/ListTest.cpp.o -MF CMakeFiles/MP3ME.dir/src/ListTest.cpp.o.d -o CMakeFiles/MP3ME.dir/src/ListTest.cpp.o -c /home/pleiades/Programming/Projects/mp3ME/src/ListTest.cpp
 
 CMakeFiles/MP3ME.dir/src/ListTest.cpp.i: cmake_force
@@ -97,10 +111,24 @@ CMakeFiles/MP3ME.dir/src/ListTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MP3ME.dir/src/ListTest.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pleiades/Programming/Projects/mp3ME/src/ListTest.cpp -o CMakeFiles/MP3ME.dir/src/ListTest.cpp.s
 
+CMakeFiles/MP3ME.dir/src/PlayMedia.cpp.o: CMakeFiles/MP3ME.dir/flags.make
+CMakeFiles/MP3ME.dir/src/PlayMedia.cpp.o: /home/pleiades/Programming/Projects/mp3ME/src/PlayMedia.cpp
+CMakeFiles/MP3ME.dir/src/PlayMedia.cpp.o: CMakeFiles/MP3ME.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/pleiades/Programming/Projects/mp3ME/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/MP3ME.dir/src/PlayMedia.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MP3ME.dir/src/PlayMedia.cpp.o -MF CMakeFiles/MP3ME.dir/src/PlayMedia.cpp.o.d -o CMakeFiles/MP3ME.dir/src/PlayMedia.cpp.o -c /home/pleiades/Programming/Projects/mp3ME/src/PlayMedia.cpp
+
+CMakeFiles/MP3ME.dir/src/PlayMedia.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MP3ME.dir/src/PlayMedia.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pleiades/Programming/Projects/mp3ME/src/PlayMedia.cpp > CMakeFiles/MP3ME.dir/src/PlayMedia.cpp.i
+
+CMakeFiles/MP3ME.dir/src/PlayMedia.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MP3ME.dir/src/PlayMedia.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pleiades/Programming/Projects/mp3ME/src/PlayMedia.cpp -o CMakeFiles/MP3ME.dir/src/PlayMedia.cpp.s
+
 CMakeFiles/MP3ME.dir/src/Song.cpp.o: CMakeFiles/MP3ME.dir/flags.make
 CMakeFiles/MP3ME.dir/src/Song.cpp.o: /home/pleiades/Programming/Projects/mp3ME/src/Song.cpp
 CMakeFiles/MP3ME.dir/src/Song.cpp.o: CMakeFiles/MP3ME.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/pleiades/Programming/Projects/mp3ME/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/MP3ME.dir/src/Song.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/pleiades/Programming/Projects/mp3ME/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/MP3ME.dir/src/Song.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MP3ME.dir/src/Song.cpp.o -MF CMakeFiles/MP3ME.dir/src/Song.cpp.o.d -o CMakeFiles/MP3ME.dir/src/Song.cpp.o -c /home/pleiades/Programming/Projects/mp3ME/src/Song.cpp
 
 CMakeFiles/MP3ME.dir/src/Song.cpp.i: cmake_force
@@ -114,7 +142,7 @@ CMakeFiles/MP3ME.dir/src/Song.cpp.s: cmake_force
 CMakeFiles/MP3ME.dir/src/SongSorting.cpp.o: CMakeFiles/MP3ME.dir/flags.make
 CMakeFiles/MP3ME.dir/src/SongSorting.cpp.o: /home/pleiades/Programming/Projects/mp3ME/src/SongSorting.cpp
 CMakeFiles/MP3ME.dir/src/SongSorting.cpp.o: CMakeFiles/MP3ME.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/pleiades/Programming/Projects/mp3ME/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/MP3ME.dir/src/SongSorting.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/pleiades/Programming/Projects/mp3ME/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/MP3ME.dir/src/SongSorting.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MP3ME.dir/src/SongSorting.cpp.o -MF CMakeFiles/MP3ME.dir/src/SongSorting.cpp.o.d -o CMakeFiles/MP3ME.dir/src/SongSorting.cpp.o -c /home/pleiades/Programming/Projects/mp3ME/src/SongSorting.cpp
 
 CMakeFiles/MP3ME.dir/src/SongSorting.cpp.i: cmake_force
@@ -128,7 +156,7 @@ CMakeFiles/MP3ME.dir/src/SongSorting.cpp.s: cmake_force
 CMakeFiles/MP3ME.dir/src/test.cpp.o: CMakeFiles/MP3ME.dir/flags.make
 CMakeFiles/MP3ME.dir/src/test.cpp.o: /home/pleiades/Programming/Projects/mp3ME/src/test.cpp
 CMakeFiles/MP3ME.dir/src/test.cpp.o: CMakeFiles/MP3ME.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/pleiades/Programming/Projects/mp3ME/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/MP3ME.dir/src/test.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/pleiades/Programming/Projects/mp3ME/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/MP3ME.dir/src/test.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MP3ME.dir/src/test.cpp.o -MF CMakeFiles/MP3ME.dir/src/test.cpp.o.d -o CMakeFiles/MP3ME.dir/src/test.cpp.o -c /home/pleiades/Programming/Projects/mp3ME/src/test.cpp
 
 CMakeFiles/MP3ME.dir/src/test.cpp.i: cmake_force
@@ -141,8 +169,10 @@ CMakeFiles/MP3ME.dir/src/test.cpp.s: cmake_force
 
 # Object files for target MP3ME
 MP3ME_OBJECTS = \
+"CMakeFiles/MP3ME.dir/src/AudioTest.cpp.o" \
 "CMakeFiles/MP3ME.dir/src/Database.cpp.o" \
 "CMakeFiles/MP3ME.dir/src/ListTest.cpp.o" \
+"CMakeFiles/MP3ME.dir/src/PlayMedia.cpp.o" \
 "CMakeFiles/MP3ME.dir/src/Song.cpp.o" \
 "CMakeFiles/MP3ME.dir/src/SongSorting.cpp.o" \
 "CMakeFiles/MP3ME.dir/src/test.cpp.o"
@@ -150,16 +180,25 @@ MP3ME_OBJECTS = \
 # External object files for target MP3ME
 MP3ME_EXTERNAL_OBJECTS =
 
+MP3ME: CMakeFiles/MP3ME.dir/src/AudioTest.cpp.o
 MP3ME: CMakeFiles/MP3ME.dir/src/Database.cpp.o
 MP3ME: CMakeFiles/MP3ME.dir/src/ListTest.cpp.o
+MP3ME: CMakeFiles/MP3ME.dir/src/PlayMedia.cpp.o
 MP3ME: CMakeFiles/MP3ME.dir/src/Song.cpp.o
 MP3ME: CMakeFiles/MP3ME.dir/src/SongSorting.cpp.o
 MP3ME: CMakeFiles/MP3ME.dir/src/test.cpp.o
 MP3ME: CMakeFiles/MP3ME.dir/build.make
 MP3ME: external/taglib-2.1.1/taglib/libtag.a
+MP3ME: external/SFML-3.0.2/lib/libsfml-audio.a
+MP3ME: external/SFML-3.0.2/lib/libsfml-system.a
 MP3ME: /usr/lib/x86_64-linux-gnu/libz.so
+MP3ME: /usr/lib/x86_64-linux-gnu/libvorbisfile.so
+MP3ME: /usr/lib/x86_64-linux-gnu/libvorbisenc.so
+MP3ME: /usr/lib/x86_64-linux-gnu/libvorbis.so
+MP3ME: /usr/lib/x86_64-linux-gnu/libogg.so
+MP3ME: /usr/lib/x86_64-linux-gnu/libFLAC.so
 MP3ME: CMakeFiles/MP3ME.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/pleiades/Programming/Projects/mp3ME/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable MP3ME"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/pleiades/Programming/Projects/mp3ME/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable MP3ME"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/MP3ME.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

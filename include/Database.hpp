@@ -6,9 +6,9 @@
 #include "Song.hpp"
 
 class Database{
-public:
-    static std::vector<std::unique_ptr<Song>> songs;
 
+    static std::vector<std::unique_ptr<Song>> songs;
+public:
     
 
     Database();

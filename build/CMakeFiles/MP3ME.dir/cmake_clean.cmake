@@ -1,8 +1,12 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/MP3ME.dir/src/AudioTest.cpp.o"
+  "CMakeFiles/MP3ME.dir/src/AudioTest.cpp.o.d"
   "CMakeFiles/MP3ME.dir/src/Database.cpp.o"
   "CMakeFiles/MP3ME.dir/src/Database.cpp.o.d"
   "CMakeFiles/MP3ME.dir/src/ListTest.cpp.o"
   "CMakeFiles/MP3ME.dir/src/ListTest.cpp.o.d"
+  "CMakeFiles/MP3ME.dir/src/PlayMedia.cpp.o"
+  "CMakeFiles/MP3ME.dir/src/PlayMedia.cpp.o.d"
   "CMakeFiles/MP3ME.dir/src/Song.cpp.o"
   "CMakeFiles/MP3ME.dir/src/Song.cpp.o.d"
   "CMakeFiles/MP3ME.dir/src/SongSorting.cpp.o"

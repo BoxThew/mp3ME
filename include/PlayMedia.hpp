@@ -2,20 +2,22 @@
 #define PLAY_MEDIA_HPP
 #include "Song.hpp"
 #include <vector>
+#include <queue>
+#include <memory>
 
 
 class PlayMedia{
 
-    std::vector<Song> queue;
+    std::queue<Song*> queue;
 
 
 
 public:
-    void set_queue(const std::vector<Song> songs);
-    void shuffle_queue();
+    void set_queue(const std::vector<std::unique_ptr<Song>>& songs);
+    std::vector<std::unique_ptr<Song>> shuffle_queue(const std::vector<std::unique_ptr<Song>> songs);
 
 
-    void play_queue() const;
+    void play_queue();
 };
 
 #endif

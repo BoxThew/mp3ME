@@ -87,7 +87,7 @@ rebuild_cache/fast: rebuild_cache
 
 # Special rule for the target list_install_components
 list_install_components:
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Available install components are: \"Unspecified\""
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Available install components are: \"Unspecified\" \"devel\""
 .PHONY : list_install_components
 
 # Special rule for the target list_install_components
@@ -591,6 +591,95 @@ tag_c/fast:
 	$(MAKE) $(MAKESILENT) -f external/taglib-2.1.1/bindings/c/CMakeFiles/tag_c.dir/build.make external/taglib-2.1.1/bindings/c/CMakeFiles/tag_c.dir/build
 .PHONY : tag_c/fast
 
+#=============================================================================
+# Target rules for targets named sfml-system
+
+# Build rule for target.
+sfml-system: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sfml-system
+.PHONY : sfml-system
+
+# fast build rule for target.
+sfml-system/fast:
+	$(MAKE) $(MAKESILENT) -f external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/build.make external/SFML-3.0.2/src/SFML/System/CMakeFiles/sfml-system.dir/build
+.PHONY : sfml-system/fast
+
+#=============================================================================
+# Target rules for targets named sfml-window
+
+# Build rule for target.
+sfml-window: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sfml-window
+.PHONY : sfml-window
+
+# fast build rule for target.
+sfml-window/fast:
+	$(MAKE) $(MAKESILENT) -f external/SFML-3.0.2/src/SFML/Window/CMakeFiles/sfml-window.dir/build.make external/SFML-3.0.2/src/SFML/Window/CMakeFiles/sfml-window.dir/build
+.PHONY : sfml-window/fast
+
+#=============================================================================
+# Target rules for targets named sfml-network
+
+# Build rule for target.
+sfml-network: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sfml-network
+.PHONY : sfml-network
+
+# fast build rule for target.
+sfml-network/fast:
+	$(MAKE) $(MAKESILENT) -f external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/build.make external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/build
+.PHONY : sfml-network/fast
+
+#=============================================================================
+# Target rules for targets named sfml-graphics
+
+# Build rule for target.
+sfml-graphics: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sfml-graphics
+.PHONY : sfml-graphics
+
+# fast build rule for target.
+sfml-graphics/fast:
+	$(MAKE) $(MAKESILENT) -f external/SFML-3.0.2/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make external/SFML-3.0.2/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build
+.PHONY : sfml-graphics/fast
+
+#=============================================================================
+# Target rules for targets named sfml-audio
+
+# Build rule for target.
+sfml-audio: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sfml-audio
+.PHONY : sfml-audio
+
+# fast build rule for target.
+sfml-audio/fast:
+	$(MAKE) $(MAKESILENT) -f external/SFML-3.0.2/src/SFML/Audio/CMakeFiles/sfml-audio.dir/build.make external/SFML-3.0.2/src/SFML/Audio/CMakeFiles/sfml-audio.dir/build
+.PHONY : sfml-audio/fast
+
+src/AudioTest.o: src/AudioTest.cpp.o
+.PHONY : src/AudioTest.o
+
+# target to build an object file
+src/AudioTest.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MP3ME.dir/build.make CMakeFiles/MP3ME.dir/src/AudioTest.cpp.o
+.PHONY : src/AudioTest.cpp.o
+
+src/AudioTest.i: src/AudioTest.cpp.i
+.PHONY : src/AudioTest.i
+
+# target to preprocess a source file
+src/AudioTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MP3ME.dir/build.make CMakeFiles/MP3ME.dir/src/AudioTest.cpp.i
+.PHONY : src/AudioTest.cpp.i
+
+src/AudioTest.s: src/AudioTest.cpp.s
+.PHONY : src/AudioTest.s
+
+# target to generate assembly for a file
+src/AudioTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MP3ME.dir/build.make CMakeFiles/MP3ME.dir/src/AudioTest.cpp.s
+.PHONY : src/AudioTest.cpp.s
+
 src/Database.o: src/Database.cpp.o
 .PHONY : src/Database.o
 
@@ -638,6 +727,30 @@ src/ListTest.s: src/ListTest.cpp.s
 src/ListTest.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MP3ME.dir/build.make CMakeFiles/MP3ME.dir/src/ListTest.cpp.s
 .PHONY : src/ListTest.cpp.s
+
+src/PlayMedia.o: src/PlayMedia.cpp.o
+.PHONY : src/PlayMedia.o
+
+# target to build an object file
+src/PlayMedia.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MP3ME.dir/build.make CMakeFiles/MP3ME.dir/src/PlayMedia.cpp.o
+.PHONY : src/PlayMedia.cpp.o
+
+src/PlayMedia.i: src/PlayMedia.cpp.i
+.PHONY : src/PlayMedia.i
+
+# target to preprocess a source file
+src/PlayMedia.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MP3ME.dir/build.make CMakeFiles/MP3ME.dir/src/PlayMedia.cpp.i
+.PHONY : src/PlayMedia.cpp.i
+
+src/PlayMedia.s: src/PlayMedia.cpp.s
+.PHONY : src/PlayMedia.s
+
+# target to generate assembly for a file
+src/PlayMedia.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MP3ME.dir/build.make CMakeFiles/MP3ME.dir/src/PlayMedia.cpp.s
+.PHONY : src/PlayMedia.cpp.s
 
 src/Song.o: src/Song.cpp.o
 .PHONY : src/Song.o
@@ -754,14 +867,25 @@ help:
 	@echo "... docs"
 	@echo "... uninstall"
 	@echo "... MP3ME"
+	@echo "... sfml-audio"
+	@echo "... sfml-graphics"
+	@echo "... sfml-network"
+	@echo "... sfml-system"
+	@echo "... sfml-window"
 	@echo "... tag"
 	@echo "... tag_c"
+	@echo "... src/AudioTest.o"
+	@echo "... src/AudioTest.i"
+	@echo "... src/AudioTest.s"
 	@echo "... src/Database.o"
 	@echo "... src/Database.i"
 	@echo "... src/Database.s"
 	@echo "... src/ListTest.o"
 	@echo "... src/ListTest.i"
 	@echo "... src/ListTest.s"
+	@echo "... src/PlayMedia.o"
+	@echo "... src/PlayMedia.i"
+	@echo "... src/PlayMedia.s"
 	@echo "... src/Song.o"
 	@echo "... src/Song.i"
 	@echo "... src/Song.s"

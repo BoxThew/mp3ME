@@ -7,7 +7,9 @@ Song::Song(){
 
 }
 
-
+void Song::set_file_name(const std::string& file_name){
+    this->file_name = file_name;
+}
 void Song::set_title(const std::string& title){
     this->title = title;
 }
@@ -24,7 +26,7 @@ void Song::add_genre(const std::string& genre){
     this->genres.push_back(genre);
 }
 
-
+std::string Song::get_file_name() const{return file_name;}
 std::string Song::get_title() const{return title;}
 std::string Song::get_artist() const{return artist;}
 std::string Song::get_album() const{return album;}

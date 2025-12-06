@@ -4,7 +4,7 @@
 #include "Song.hpp"
 #include "Database.hpp"
 
-
+/*
 int main(){
     std::string path = "songs/";
     TagLib::FileRef f("songs/Billy Joel - Vienna.mp3");
@@ -49,3 +49,4 @@ int main(){
     return 0;
 }
 
+*/
