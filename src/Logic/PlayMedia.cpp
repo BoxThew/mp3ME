@@ -3,6 +3,7 @@
 #include <memory>
 #include <vector>
 #include <queue>
+#include <stack> 
 #include "SFML/Audio.hpp"
 #include "SFML/Audio/SoundSource.hpp"
 #include "SFML/System.hpp"
@@ -37,6 +38,12 @@ void PlayMedia::play_queue(){
         Song *next_song = queue.front();
         sf::Music m(next_song->get_file_name());
 
+
+        if(current_song != nullptr){
+            set_history(current_song); 
+        }
+        current_song = next_song; 
+        
         std::cout << "Now playing " << next_song->get_title() <<
                     " by " << next_song->get_artist() << "!\n\n";
         m.play();
@@ -68,6 +75,44 @@ void PlayMedia::play_queue(){
     std::cout << "Play queue is empty.\n";
 
 }
+
+
+void PlayMedia::set_history(Song* song){
+    if(song != nullptr){
+            history.push(song); 
+    }
+    else{
+            std::cout << "Invalid(nullptr)"; 
+    }
+}
+
+void PlayMedia::play_back(){
+    if(history.empty()){ 
+        std::cout << "History is empty.\n"; 
+        return; 
+    }
+    else{
+
+        Song* previous_song = history.top(); 
+        history.pop(); 
+        current_song = previous_song; 
+
+        sf::Music m;
+        if(!m.openFromFile(previous_song->get_file_name())){
+            std::cout << "ERROR: file cannot be opened.\n" ; 
+            return; 
+        }
+     
+        std::cout << "Now replaying " << current_song->get_title() <<
+                    " by " << current_song->get_artist() << "!\n\n";
+        m.play();
+
+        while(!still_playing){
+            break; 
+        }
+    }
+}
+
 
 
 
