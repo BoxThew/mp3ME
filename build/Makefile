@@ -663,6 +663,30 @@ src/Song.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MP3ME.dir/build.make CMakeFiles/MP3ME.dir/src/Song.cpp.s
 .PHONY : src/Song.cpp.s
 
+src/SongSorting.o: src/SongSorting.cpp.o
+.PHONY : src/SongSorting.o
+
+# target to build an object file
+src/SongSorting.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MP3ME.dir/build.make CMakeFiles/MP3ME.dir/src/SongSorting.cpp.o
+.PHONY : src/SongSorting.cpp.o
+
+src/SongSorting.i: src/SongSorting.cpp.i
+.PHONY : src/SongSorting.i
+
+# target to preprocess a source file
+src/SongSorting.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MP3ME.dir/build.make CMakeFiles/MP3ME.dir/src/SongSorting.cpp.i
+.PHONY : src/SongSorting.cpp.i
+
+src/SongSorting.s: src/SongSorting.cpp.s
+.PHONY : src/SongSorting.s
+
+# target to generate assembly for a file
+src/SongSorting.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MP3ME.dir/build.make CMakeFiles/MP3ME.dir/src/SongSorting.cpp.s
+.PHONY : src/SongSorting.cpp.s
+
 src/test.o: src/test.cpp.o
 .PHONY : src/test.o
 
@@ -741,6 +765,9 @@ help:
 	@echo "... src/Song.o"
 	@echo "... src/Song.i"
 	@echo "... src/Song.s"
+	@echo "... src/SongSorting.o"
+	@echo "... src/SongSorting.i"
+	@echo "... src/SongSorting.s"
 	@echo "... src/test.o"
 	@echo "... src/test.i"
 	@echo "... src/test.s"

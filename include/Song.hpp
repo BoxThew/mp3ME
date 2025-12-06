@@ -20,11 +20,11 @@ public:
     void add_genre(const std::string& genre);
 
 
-    std::string get_title();
-    std::string get_artist();
-    std::string get_album();
-    unsigned int get_year_rel();
-    std::vector<std::string> get_genres();
+    std::string get_title() const;
+    std::string get_artist() const;
+    std::string get_album() const;
+    unsigned int get_year_rel() const;
+    std::vector<std::string> get_genres() const;
 
 };
 
