@@ -73,141 +73,141 @@ external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/Ftp.cpp.o: exte
 external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/Ftp.cpp.o: /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/Network/Ftp.cpp
 external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/Ftp.cpp.o: external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/pleiades/Programming/Projects/mp3ME/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/Ftp.cpp.o"
-	cd /home/pleiades/Programming/Projects/mp3ME/build/external/SFML-3.0.2/src/SFML/Network && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/Ftp.cpp.o -MF CMakeFiles/sfml-network.dir/Ftp.cpp.o.d -o CMakeFiles/sfml-network.dir/Ftp.cpp.o -c /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/Network/Ftp.cpp
+	cd /home/pleiades/Programming/Projects/mp3ME/build/external/SFML-3.0.2/src/SFML/Network && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/Ftp.cpp.o -MF CMakeFiles/sfml-network.dir/Ftp.cpp.o.d -o CMakeFiles/sfml-network.dir/Ftp.cpp.o -c /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/Network/Ftp.cpp
 
 external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/Ftp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sfml-network.dir/Ftp.cpp.i"
-	cd /home/pleiades/Programming/Projects/mp3ME/build/external/SFML-3.0.2/src/SFML/Network && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/Network/Ftp.cpp > CMakeFiles/sfml-network.dir/Ftp.cpp.i
+	cd /home/pleiades/Programming/Projects/mp3ME/build/external/SFML-3.0.2/src/SFML/Network && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/Network/Ftp.cpp > CMakeFiles/sfml-network.dir/Ftp.cpp.i
 
 external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/Ftp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sfml-network.dir/Ftp.cpp.s"
-	cd /home/pleiades/Programming/Projects/mp3ME/build/external/SFML-3.0.2/src/SFML/Network && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/Network/Ftp.cpp -o CMakeFiles/sfml-network.dir/Ftp.cpp.s
+	cd /home/pleiades/Programming/Projects/mp3ME/build/external/SFML-3.0.2/src/SFML/Network && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/Network/Ftp.cpp -o CMakeFiles/sfml-network.dir/Ftp.cpp.s
 
 external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/Http.cpp.o: external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/flags.make
 external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/Http.cpp.o: /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/Network/Http.cpp
 external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/Http.cpp.o: external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/pleiades/Programming/Projects/mp3ME/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/Http.cpp.o"
-	cd /home/pleiades/Programming/Projects/mp3ME/build/external/SFML-3.0.2/src/SFML/Network && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/Http.cpp.o -MF CMakeFiles/sfml-network.dir/Http.cpp.o.d -o CMakeFiles/sfml-network.dir/Http.cpp.o -c /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/Network/Http.cpp
+	cd /home/pleiades/Programming/Projects/mp3ME/build/external/SFML-3.0.2/src/SFML/Network && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/Http.cpp.o -MF CMakeFiles/sfml-network.dir/Http.cpp.o.d -o CMakeFiles/sfml-network.dir/Http.cpp.o -c /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/Network/Http.cpp
 
 external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/Http.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sfml-network.dir/Http.cpp.i"
-	cd /home/pleiades/Programming/Projects/mp3ME/build/external/SFML-3.0.2/src/SFML/Network && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/Network/Http.cpp > CMakeFiles/sfml-network.dir/Http.cpp.i
+	cd /home/pleiades/Programming/Projects/mp3ME/build/external/SFML-3.0.2/src/SFML/Network && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/Network/Http.cpp > CMakeFiles/sfml-network.dir/Http.cpp.i
 
 external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/Http.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sfml-network.dir/Http.cpp.s"
-	cd /home/pleiades/Programming/Projects/mp3ME/build/external/SFML-3.0.2/src/SFML/Network && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/Network/Http.cpp -o CMakeFiles/sfml-network.dir/Http.cpp.s
+	cd /home/pleiades/Programming/Projects/mp3ME/build/external/SFML-3.0.2/src/SFML/Network && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/Network/Http.cpp -o CMakeFiles/sfml-network.dir/Http.cpp.s
 
 external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/IpAddress.cpp.o: external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/flags.make
 external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/IpAddress.cpp.o: /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/Network/IpAddress.cpp
 external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/IpAddress.cpp.o: external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/pleiades/Programming/Projects/mp3ME/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/IpAddress.cpp.o"
-	cd /home/pleiades/Programming/Projects/mp3ME/build/external/SFML-3.0.2/src/SFML/Network && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/IpAddress.cpp.o -MF CMakeFiles/sfml-network.dir/IpAddress.cpp.o.d -o CMakeFiles/sfml-network.dir/IpAddress.cpp.o -c /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/Network/IpAddress.cpp
+	cd /home/pleiades/Programming/Projects/mp3ME/build/external/SFML-3.0.2/src/SFML/Network && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/IpAddress.cpp.o -MF CMakeFiles/sfml-network.dir/IpAddress.cpp.o.d -o CMakeFiles/sfml-network.dir/IpAddress.cpp.o -c /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/Network/IpAddress.cpp
 
 external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/IpAddress.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sfml-network.dir/IpAddress.cpp.i"
-	cd /home/pleiades/Programming/Projects/mp3ME/build/external/SFML-3.0.2/src/SFML/Network && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/Network/IpAddress.cpp > CMakeFiles/sfml-network.dir/IpAddress.cpp.i
+	cd /home/pleiades/Programming/Projects/mp3ME/build/external/SFML-3.0.2/src/SFML/Network && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/Network/IpAddress.cpp > CMakeFiles/sfml-network.dir/IpAddress.cpp.i
 
 external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/IpAddress.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sfml-network.dir/IpAddress.cpp.s"
-	cd /home/pleiades/Programming/Projects/mp3ME/build/external/SFML-3.0.2/src/SFML/Network && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/Network/IpAddress.cpp -o CMakeFiles/sfml-network.dir/IpAddress.cpp.s
+	cd /home/pleiades/Programming/Projects/mp3ME/build/external/SFML-3.0.2/src/SFML/Network && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/Network/IpAddress.cpp -o CMakeFiles/sfml-network.dir/IpAddress.cpp.s
 
 external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/Packet.cpp.o: external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/flags.make
 external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/Packet.cpp.o: /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/Network/Packet.cpp
 external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/Packet.cpp.o: external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/pleiades/Programming/Projects/mp3ME/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/Packet.cpp.o"
-	cd /home/pleiades/Programming/Projects/mp3ME/build/external/SFML-3.0.2/src/SFML/Network && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/Packet.cpp.o -MF CMakeFiles/sfml-network.dir/Packet.cpp.o.d -o CMakeFiles/sfml-network.dir/Packet.cpp.o -c /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/Network/Packet.cpp
+	cd /home/pleiades/Programming/Projects/mp3ME/build/external/SFML-3.0.2/src/SFML/Network && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/Packet.cpp.o -MF CMakeFiles/sfml-network.dir/Packet.cpp.o.d -o CMakeFiles/sfml-network.dir/Packet.cpp.o -c /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/Network/Packet.cpp
 
 external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/Packet.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sfml-network.dir/Packet.cpp.i"
-	cd /home/pleiades/Programming/Projects/mp3ME/build/external/SFML-3.0.2/src/SFML/Network && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/Network/Packet.cpp > CMakeFiles/sfml-network.dir/Packet.cpp.i
+	cd /home/pleiades/Programming/Projects/mp3ME/build/external/SFML-3.0.2/src/SFML/Network && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/Network/Packet.cpp > CMakeFiles/sfml-network.dir/Packet.cpp.i
 
 external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/Packet.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sfml-network.dir/Packet.cpp.s"
-	cd /home/pleiades/Programming/Projects/mp3ME/build/external/SFML-3.0.2/src/SFML/Network && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/Network/Packet.cpp -o CMakeFiles/sfml-network.dir/Packet.cpp.s
+	cd /home/pleiades/Programming/Projects/mp3ME/build/external/SFML-3.0.2/src/SFML/Network && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/Network/Packet.cpp -o CMakeFiles/sfml-network.dir/Packet.cpp.s
 
 external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/Socket.cpp.o: external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/flags.make
 external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/Socket.cpp.o: /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/Network/Socket.cpp
 external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/Socket.cpp.o: external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/pleiades/Programming/Projects/mp3ME/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/Socket.cpp.o"
-	cd /home/pleiades/Programming/Projects/mp3ME/build/external/SFML-3.0.2/src/SFML/Network && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/Socket.cpp.o -MF CMakeFiles/sfml-network.dir/Socket.cpp.o.d -o CMakeFiles/sfml-network.dir/Socket.cpp.o -c /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/Network/Socket.cpp
+	cd /home/pleiades/Programming/Projects/mp3ME/build/external/SFML-3.0.2/src/SFML/Network && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/Socket.cpp.o -MF CMakeFiles/sfml-network.dir/Socket.cpp.o.d -o CMakeFiles/sfml-network.dir/Socket.cpp.o -c /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/Network/Socket.cpp
 
 external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/Socket.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sfml-network.dir/Socket.cpp.i"
-	cd /home/pleiades/Programming/Projects/mp3ME/build/external/SFML-3.0.2/src/SFML/Network && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/Network/Socket.cpp > CMakeFiles/sfml-network.dir/Socket.cpp.i
+	cd /home/pleiades/Programming/Projects/mp3ME/build/external/SFML-3.0.2/src/SFML/Network && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/Network/Socket.cpp > CMakeFiles/sfml-network.dir/Socket.cpp.i
 
 external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/Socket.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sfml-network.dir/Socket.cpp.s"
-	cd /home/pleiades/Programming/Projects/mp3ME/build/external/SFML-3.0.2/src/SFML/Network && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/Network/Socket.cpp -o CMakeFiles/sfml-network.dir/Socket.cpp.s
+	cd /home/pleiades/Programming/Projects/mp3ME/build/external/SFML-3.0.2/src/SFML/Network && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/Network/Socket.cpp -o CMakeFiles/sfml-network.dir/Socket.cpp.s
 
 external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/SocketSelector.cpp.o: external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/flags.make
 external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/SocketSelector.cpp.o: /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/Network/SocketSelector.cpp
 external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/SocketSelector.cpp.o: external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/pleiades/Programming/Projects/mp3ME/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/SocketSelector.cpp.o"
-	cd /home/pleiades/Programming/Projects/mp3ME/build/external/SFML-3.0.2/src/SFML/Network && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/SocketSelector.cpp.o -MF CMakeFiles/sfml-network.dir/SocketSelector.cpp.o.d -o CMakeFiles/sfml-network.dir/SocketSelector.cpp.o -c /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/Network/SocketSelector.cpp
+	cd /home/pleiades/Programming/Projects/mp3ME/build/external/SFML-3.0.2/src/SFML/Network && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/SocketSelector.cpp.o -MF CMakeFiles/sfml-network.dir/SocketSelector.cpp.o.d -o CMakeFiles/sfml-network.dir/SocketSelector.cpp.o -c /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/Network/SocketSelector.cpp
 
 external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/SocketSelector.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sfml-network.dir/SocketSelector.cpp.i"
-	cd /home/pleiades/Programming/Projects/mp3ME/build/external/SFML-3.0.2/src/SFML/Network && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/Network/SocketSelector.cpp > CMakeFiles/sfml-network.dir/SocketSelector.cpp.i
+	cd /home/pleiades/Programming/Projects/mp3ME/build/external/SFML-3.0.2/src/SFML/Network && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/Network/SocketSelector.cpp > CMakeFiles/sfml-network.dir/SocketSelector.cpp.i
 
 external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/SocketSelector.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sfml-network.dir/SocketSelector.cpp.s"
-	cd /home/pleiades/Programming/Projects/mp3ME/build/external/SFML-3.0.2/src/SFML/Network && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/Network/SocketSelector.cpp -o CMakeFiles/sfml-network.dir/SocketSelector.cpp.s
+	cd /home/pleiades/Programming/Projects/mp3ME/build/external/SFML-3.0.2/src/SFML/Network && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/Network/SocketSelector.cpp -o CMakeFiles/sfml-network.dir/SocketSelector.cpp.s
 
 external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/TcpListener.cpp.o: external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/flags.make
 external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/TcpListener.cpp.o: /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/Network/TcpListener.cpp
 external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/TcpListener.cpp.o: external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/pleiades/Programming/Projects/mp3ME/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/TcpListener.cpp.o"
-	cd /home/pleiades/Programming/Projects/mp3ME/build/external/SFML-3.0.2/src/SFML/Network && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/TcpListener.cpp.o -MF CMakeFiles/sfml-network.dir/TcpListener.cpp.o.d -o CMakeFiles/sfml-network.dir/TcpListener.cpp.o -c /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/Network/TcpListener.cpp
+	cd /home/pleiades/Programming/Projects/mp3ME/build/external/SFML-3.0.2/src/SFML/Network && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/TcpListener.cpp.o -MF CMakeFiles/sfml-network.dir/TcpListener.cpp.o.d -o CMakeFiles/sfml-network.dir/TcpListener.cpp.o -c /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/Network/TcpListener.cpp
 
 external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/TcpListener.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sfml-network.dir/TcpListener.cpp.i"
-	cd /home/pleiades/Programming/Projects/mp3ME/build/external/SFML-3.0.2/src/SFML/Network && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/Network/TcpListener.cpp > CMakeFiles/sfml-network.dir/TcpListener.cpp.i
+	cd /home/pleiades/Programming/Projects/mp3ME/build/external/SFML-3.0.2/src/SFML/Network && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/Network/TcpListener.cpp > CMakeFiles/sfml-network.dir/TcpListener.cpp.i
 
 external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/TcpListener.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sfml-network.dir/TcpListener.cpp.s"
-	cd /home/pleiades/Programming/Projects/mp3ME/build/external/SFML-3.0.2/src/SFML/Network && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/Network/TcpListener.cpp -o CMakeFiles/sfml-network.dir/TcpListener.cpp.s
+	cd /home/pleiades/Programming/Projects/mp3ME/build/external/SFML-3.0.2/src/SFML/Network && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/Network/TcpListener.cpp -o CMakeFiles/sfml-network.dir/TcpListener.cpp.s
 
 external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/TcpSocket.cpp.o: external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/flags.make
 external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/TcpSocket.cpp.o: /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/Network/TcpSocket.cpp
 external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/TcpSocket.cpp.o: external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/pleiades/Programming/Projects/mp3ME/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/TcpSocket.cpp.o"
-	cd /home/pleiades/Programming/Projects/mp3ME/build/external/SFML-3.0.2/src/SFML/Network && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/TcpSocket.cpp.o -MF CMakeFiles/sfml-network.dir/TcpSocket.cpp.o.d -o CMakeFiles/sfml-network.dir/TcpSocket.cpp.o -c /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/Network/TcpSocket.cpp
+	cd /home/pleiades/Programming/Projects/mp3ME/build/external/SFML-3.0.2/src/SFML/Network && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/TcpSocket.cpp.o -MF CMakeFiles/sfml-network.dir/TcpSocket.cpp.o.d -o CMakeFiles/sfml-network.dir/TcpSocket.cpp.o -c /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/Network/TcpSocket.cpp
 
 external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/TcpSocket.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sfml-network.dir/TcpSocket.cpp.i"
-	cd /home/pleiades/Programming/Projects/mp3ME/build/external/SFML-3.0.2/src/SFML/Network && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/Network/TcpSocket.cpp > CMakeFiles/sfml-network.dir/TcpSocket.cpp.i
+	cd /home/pleiades/Programming/Projects/mp3ME/build/external/SFML-3.0.2/src/SFML/Network && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/Network/TcpSocket.cpp > CMakeFiles/sfml-network.dir/TcpSocket.cpp.i
 
 external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/TcpSocket.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sfml-network.dir/TcpSocket.cpp.s"
-	cd /home/pleiades/Programming/Projects/mp3ME/build/external/SFML-3.0.2/src/SFML/Network && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/Network/TcpSocket.cpp -o CMakeFiles/sfml-network.dir/TcpSocket.cpp.s
+	cd /home/pleiades/Programming/Projects/mp3ME/build/external/SFML-3.0.2/src/SFML/Network && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/Network/TcpSocket.cpp -o CMakeFiles/sfml-network.dir/TcpSocket.cpp.s
 
 external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/UdpSocket.cpp.o: external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/flags.make
 external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/UdpSocket.cpp.o: /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/Network/UdpSocket.cpp
 external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/UdpSocket.cpp.o: external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/pleiades/Programming/Projects/mp3ME/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/UdpSocket.cpp.o"
-	cd /home/pleiades/Programming/Projects/mp3ME/build/external/SFML-3.0.2/src/SFML/Network && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/UdpSocket.cpp.o -MF CMakeFiles/sfml-network.dir/UdpSocket.cpp.o.d -o CMakeFiles/sfml-network.dir/UdpSocket.cpp.o -c /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/Network/UdpSocket.cpp
+	cd /home/pleiades/Programming/Projects/mp3ME/build/external/SFML-3.0.2/src/SFML/Network && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/UdpSocket.cpp.o -MF CMakeFiles/sfml-network.dir/UdpSocket.cpp.o.d -o CMakeFiles/sfml-network.dir/UdpSocket.cpp.o -c /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/Network/UdpSocket.cpp
 
 external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/UdpSocket.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sfml-network.dir/UdpSocket.cpp.i"
-	cd /home/pleiades/Programming/Projects/mp3ME/build/external/SFML-3.0.2/src/SFML/Network && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/Network/UdpSocket.cpp > CMakeFiles/sfml-network.dir/UdpSocket.cpp.i
+	cd /home/pleiades/Programming/Projects/mp3ME/build/external/SFML-3.0.2/src/SFML/Network && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/Network/UdpSocket.cpp > CMakeFiles/sfml-network.dir/UdpSocket.cpp.i
 
 external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/UdpSocket.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sfml-network.dir/UdpSocket.cpp.s"
-	cd /home/pleiades/Programming/Projects/mp3ME/build/external/SFML-3.0.2/src/SFML/Network && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/Network/UdpSocket.cpp -o CMakeFiles/sfml-network.dir/UdpSocket.cpp.s
+	cd /home/pleiades/Programming/Projects/mp3ME/build/external/SFML-3.0.2/src/SFML/Network && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/Network/UdpSocket.cpp -o CMakeFiles/sfml-network.dir/UdpSocket.cpp.s
 
 external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/Unix/SocketImpl.cpp.o: external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/flags.make
 external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/Unix/SocketImpl.cpp.o: /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/Network/Unix/SocketImpl.cpp
 external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/Unix/SocketImpl.cpp.o: external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/pleiades/Programming/Projects/mp3ME/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/Unix/SocketImpl.cpp.o"
-	cd /home/pleiades/Programming/Projects/mp3ME/build/external/SFML-3.0.2/src/SFML/Network && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/Unix/SocketImpl.cpp.o -MF CMakeFiles/sfml-network.dir/Unix/SocketImpl.cpp.o.d -o CMakeFiles/sfml-network.dir/Unix/SocketImpl.cpp.o -c /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/Network/Unix/SocketImpl.cpp
+	cd /home/pleiades/Programming/Projects/mp3ME/build/external/SFML-3.0.2/src/SFML/Network && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/Unix/SocketImpl.cpp.o -MF CMakeFiles/sfml-network.dir/Unix/SocketImpl.cpp.o.d -o CMakeFiles/sfml-network.dir/Unix/SocketImpl.cpp.o -c /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/Network/Unix/SocketImpl.cpp
 
 external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/Unix/SocketImpl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sfml-network.dir/Unix/SocketImpl.cpp.i"
-	cd /home/pleiades/Programming/Projects/mp3ME/build/external/SFML-3.0.2/src/SFML/Network && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/Network/Unix/SocketImpl.cpp > CMakeFiles/sfml-network.dir/Unix/SocketImpl.cpp.i
+	cd /home/pleiades/Programming/Projects/mp3ME/build/external/SFML-3.0.2/src/SFML/Network && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/Network/Unix/SocketImpl.cpp > CMakeFiles/sfml-network.dir/Unix/SocketImpl.cpp.i
 
 external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/Unix/SocketImpl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sfml-network.dir/Unix/SocketImpl.cpp.s"
-	cd /home/pleiades/Programming/Projects/mp3ME/build/external/SFML-3.0.2/src/SFML/Network && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/Network/Unix/SocketImpl.cpp -o CMakeFiles/sfml-network.dir/Unix/SocketImpl.cpp.s
+	cd /home/pleiades/Programming/Projects/mp3ME/build/external/SFML-3.0.2/src/SFML/Network && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/src/SFML/Network/Unix/SocketImpl.cpp -o CMakeFiles/sfml-network.dir/Unix/SocketImpl.cpp.s
 
 # Object files for target sfml-network
 sfml__network_OBJECTS = \
@@ -225,24 +225,24 @@ sfml__network_OBJECTS = \
 # External object files for target sfml-network
 sfml__network_EXTERNAL_OBJECTS =
 
-external/SFML-3.0.2/lib/libsfml-network-s-d.a: external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/Ftp.cpp.o
-external/SFML-3.0.2/lib/libsfml-network-s-d.a: external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/Http.cpp.o
-external/SFML-3.0.2/lib/libsfml-network-s-d.a: external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/IpAddress.cpp.o
-external/SFML-3.0.2/lib/libsfml-network-s-d.a: external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/Packet.cpp.o
-external/SFML-3.0.2/lib/libsfml-network-s-d.a: external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/Socket.cpp.o
-external/SFML-3.0.2/lib/libsfml-network-s-d.a: external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/SocketSelector.cpp.o
-external/SFML-3.0.2/lib/libsfml-network-s-d.a: external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/TcpListener.cpp.o
-external/SFML-3.0.2/lib/libsfml-network-s-d.a: external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/TcpSocket.cpp.o
-external/SFML-3.0.2/lib/libsfml-network-s-d.a: external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/UdpSocket.cpp.o
-external/SFML-3.0.2/lib/libsfml-network-s-d.a: external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/Unix/SocketImpl.cpp.o
-external/SFML-3.0.2/lib/libsfml-network-s-d.a: external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/build.make
-external/SFML-3.0.2/lib/libsfml-network-s-d.a: external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/pleiades/Programming/Projects/mp3ME/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX static library ../../../lib/libsfml-network-s-d.a"
+external/SFML-3.0.2/lib/libsfml-network.a: external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/Ftp.cpp.o
+external/SFML-3.0.2/lib/libsfml-network.a: external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/Http.cpp.o
+external/SFML-3.0.2/lib/libsfml-network.a: external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/IpAddress.cpp.o
+external/SFML-3.0.2/lib/libsfml-network.a: external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/Packet.cpp.o
+external/SFML-3.0.2/lib/libsfml-network.a: external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/Socket.cpp.o
+external/SFML-3.0.2/lib/libsfml-network.a: external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/SocketSelector.cpp.o
+external/SFML-3.0.2/lib/libsfml-network.a: external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/TcpListener.cpp.o
+external/SFML-3.0.2/lib/libsfml-network.a: external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/TcpSocket.cpp.o
+external/SFML-3.0.2/lib/libsfml-network.a: external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/UdpSocket.cpp.o
+external/SFML-3.0.2/lib/libsfml-network.a: external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/Unix/SocketImpl.cpp.o
+external/SFML-3.0.2/lib/libsfml-network.a: external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/build.make
+external/SFML-3.0.2/lib/libsfml-network.a: external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/pleiades/Programming/Projects/mp3ME/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX static library ../../../lib/libsfml-network.a"
 	cd /home/pleiades/Programming/Projects/mp3ME/build/external/SFML-3.0.2/src/SFML/Network && $(CMAKE_COMMAND) -P CMakeFiles/sfml-network.dir/cmake_clean_target.cmake
 	cd /home/pleiades/Programming/Projects/mp3ME/build/external/SFML-3.0.2/src/SFML/Network && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sfml-network.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/build: external/SFML-3.0.2/lib/libsfml-network-s-d.a
+external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/build: external/SFML-3.0.2/lib/libsfml-network.a
 .PHONY : external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/build
 
 external/SFML-3.0.2/src/SFML/Network/CMakeFiles/sfml-network.dir/clean:

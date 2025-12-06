@@ -224,7 +224,8 @@ CMakeFiles/MP3ME.dir/src/Logic/PlayMedia.cpp.o: \
  /home/pleiades/Programming/Projects/mp3ME/include/Song.hpp \
  /usr/include/c++/13/queue /usr/include/c++/13/deque \
  /usr/include/c++/13/bits/stl_deque.h /usr/include/c++/13/bits/deque.tcc \
- /usr/include/c++/13/bits/stl_queue.h \
+ /usr/include/c++/13/bits/stl_queue.h /usr/include/c++/13/stack \
+ /usr/include/c++/13/bits/stl_stack.h \
  /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/include/SFML/Audio.hpp \
  /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/include/SFML/Audio/InputSoundFile.hpp \
  /home/pleiades/Programming/Projects/mp3ME/external/SFML-3.0.2/include/SFML/Audio/SoundFileReader.hpp \

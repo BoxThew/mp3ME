@@ -27,7 +27,7 @@ public:
 
     void set_history(Song* song);
 
-    vois play_back(); 
+    void play_back(); 
 
     bool still_playing(const sf::Music& music) const;
 

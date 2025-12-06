@@ -73,15 +73,15 @@ external/taglib-2.1.1/bindings/c/CMakeFiles/tag_c.dir/tag_c.cpp.o: external/tagl
 external/taglib-2.1.1/bindings/c/CMakeFiles/tag_c.dir/tag_c.cpp.o: /home/pleiades/Programming/Projects/mp3ME/external/taglib-2.1.1/bindings/c/tag_c.cpp
 external/taglib-2.1.1/bindings/c/CMakeFiles/tag_c.dir/tag_c.cpp.o: external/taglib-2.1.1/bindings/c/CMakeFiles/tag_c.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/pleiades/Programming/Projects/mp3ME/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object external/taglib-2.1.1/bindings/c/CMakeFiles/tag_c.dir/tag_c.cpp.o"
-	cd /home/pleiades/Programming/Projects/mp3ME/build/external/taglib-2.1.1/bindings/c && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/taglib-2.1.1/bindings/c/CMakeFiles/tag_c.dir/tag_c.cpp.o -MF CMakeFiles/tag_c.dir/tag_c.cpp.o.d -o CMakeFiles/tag_c.dir/tag_c.cpp.o -c /home/pleiades/Programming/Projects/mp3ME/external/taglib-2.1.1/bindings/c/tag_c.cpp
+	cd /home/pleiades/Programming/Projects/mp3ME/build/external/taglib-2.1.1/bindings/c && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/taglib-2.1.1/bindings/c/CMakeFiles/tag_c.dir/tag_c.cpp.o -MF CMakeFiles/tag_c.dir/tag_c.cpp.o.d -o CMakeFiles/tag_c.dir/tag_c.cpp.o -c /home/pleiades/Programming/Projects/mp3ME/external/taglib-2.1.1/bindings/c/tag_c.cpp
 
 external/taglib-2.1.1/bindings/c/CMakeFiles/tag_c.dir/tag_c.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tag_c.dir/tag_c.cpp.i"
-	cd /home/pleiades/Programming/Projects/mp3ME/build/external/taglib-2.1.1/bindings/c && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pleiades/Programming/Projects/mp3ME/external/taglib-2.1.1/bindings/c/tag_c.cpp > CMakeFiles/tag_c.dir/tag_c.cpp.i
+	cd /home/pleiades/Programming/Projects/mp3ME/build/external/taglib-2.1.1/bindings/c && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pleiades/Programming/Projects/mp3ME/external/taglib-2.1.1/bindings/c/tag_c.cpp > CMakeFiles/tag_c.dir/tag_c.cpp.i
 
 external/taglib-2.1.1/bindings/c/CMakeFiles/tag_c.dir/tag_c.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tag_c.dir/tag_c.cpp.s"
-	cd /home/pleiades/Programming/Projects/mp3ME/build/external/taglib-2.1.1/bindings/c && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pleiades/Programming/Projects/mp3ME/external/taglib-2.1.1/bindings/c/tag_c.cpp -o CMakeFiles/tag_c.dir/tag_c.cpp.s
+	cd /home/pleiades/Programming/Projects/mp3ME/build/external/taglib-2.1.1/bindings/c && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pleiades/Programming/Projects/mp3ME/external/taglib-2.1.1/bindings/c/tag_c.cpp -o CMakeFiles/tag_c.dir/tag_c.cpp.s
 
 # Object files for target tag_c
 tag_c_OBJECTS = \

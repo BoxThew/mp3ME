@@ -107,7 +107,7 @@ void PlayMedia::play_back(){
                     " by " << current_song->get_artist() << "!\n\n";
         m.play();
 
-        while(!still_playing){
+        while(!still_playing(m)){
             break; 
         }
     }

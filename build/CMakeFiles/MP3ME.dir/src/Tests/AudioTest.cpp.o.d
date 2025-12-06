@@ -314,4 +314,5 @@ CMakeFiles/MP3ME.dir/src/Tests/AudioTest.cpp.o: \
  /home/pleiades/Programming/Projects/mp3ME/include/PlayMedia.hpp \
  /usr/include/c++/13/queue /usr/include/c++/13/deque \
  /usr/include/c++/13/bits/stl_deque.h /usr/include/c++/13/bits/deque.tcc \
- /usr/include/c++/13/bits/stl_queue.h
+ /usr/include/c++/13/bits/stl_queue.h /usr/include/c++/13/stack \
+ /usr/include/c++/13/bits/stl_stack.h
