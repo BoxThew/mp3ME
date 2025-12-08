@@ -38,7 +38,7 @@ int main(){
 
     PlayMedia p;
 
-    p.set_queue(Database::get_songs());
+    p.set_queue(Database::get_all_songs());
 
     p.play_queue();
     

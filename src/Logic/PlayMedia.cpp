@@ -4,9 +4,7 @@
 #include <vector>
 #include <queue>
 #include <stack> 
-#include "SFML/Audio.hpp"
 #include "SFML/Audio/SoundSource.hpp"
-#include "SFML/System.hpp"
 
 #include <ctime>
 #include <iostream> 
@@ -20,16 +18,7 @@ void PlayMedia::set_queue(const std::vector<std::unique_ptr<Song>>& songs){
 }
 
 
-//FIXME - incomplete / really messy, will come back.
-std::vector<std::unique_ptr<Song>> PlayMedia::shuffle_queue(std::vector<std::unique_ptr<Song>> songs){
-    srand(time(0));
-    unsigned int songs_size = songs.size();
-    for (int x = 0; x < songs_size; ++x){
-        int rand_idx = rand() % songs_size;
-        
-        std::swap(songs[x], songs[rand_idx]);
-    }
-}
+//If time, implement shuffle function
 
 void PlayMedia::play_queue(){
     
@@ -102,7 +91,7 @@ void PlayMedia::play_back(){
             std::cout << "ERROR: file cannot be opened.\n" ; 
             return; 
         }
-     
+    
         std::cout << "Now replaying " << current_song->get_title() <<
                     " by " << current_song->get_artist() << "!\n\n";
         m.play();
