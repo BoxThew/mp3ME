@@ -19,7 +19,7 @@ int main(){
     
     std::string path = "songs";
     for (const auto& entry : itr(path)){
-        Song s;
+        Song s("tets salt");
         std::string file_path = entry.path();
         TagLib::FileRef f(file_path.c_str());
         if (f.isNull() || !f.tag()){

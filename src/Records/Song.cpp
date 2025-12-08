@@ -3,12 +3,13 @@
 #include <vector>
 
 
-Song::Song(){
+Song::Song(const std::string& salt){
     this->file_name = "No File Name";
     this->title = "No Song Title";
     this->artist = "No Song Artist";
     this->album = "No Song Album";
     this->year_rel = -1;
+    this->salt = salt;
     this->times_played = 0;
 }
 
@@ -48,3 +49,5 @@ unsigned int Song::get_year_rel() const{return year_rel;}
 std::vector<std::string> Song::get_genres() const{return genres;}
 
 unsigned int Song::get_times_played() const{return times_played;}
+
+std::string Song::get_salt() const{return salt;}

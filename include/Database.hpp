@@ -25,7 +25,7 @@ class Database{
     please look at make_salt funct if you are interested in this idea!
     */
 
-    static std::unordered_map<std::string art_alb, std::vector<Song*>> songs_in_album;
+    static std::unordered_map<std::string, std::vector<Song*>> songs_in_album;
 
 
     /*
@@ -41,9 +41,9 @@ class Database{
     static void make_artist(const std::string& artist);
     static void add_to_artist(const std::string& artist, Song *pSong);
 
-    static bool album_exists(const std::string art_alb& album);
-    static void make_album(const std::string_art_alb& album);
-    static void add_to_album(const art_alb_pair& album, Song *pSong);
+    static bool album_exists(const std::string& album);
+    static void make_album(const std::string& album);
+    static void add_to_album(const std::string& album, Song *pSong);
 
 public:
     
