@@ -5,30 +5,44 @@
 #include <memory>
 #include "Song.hpp"
 #include <unordered_map>
-#include <map>
 #include <string> 
 #include <utility>
 #include <functional>
 
 
 //removed structs
-using art_alb_pair = std::pair<std::string, std::string>; //alias 
 
 class Database{
-
+    const std::string song_pepper;
     static std::vector<std::unique_ptr<Song>> songs;
     //this one is a hash table
     static std::unordered_map<std::string, std::vector<Song*>> songs_by_artists;
 
-    //using a tree for album because pair wasnt being hashed.
-    static std::map<art_alb_pair, std::vector<Song*>> songs_in_album;
+    /*
+    using strings for this because std::pair would not hash properly.
+    my idea for this is to have the string be the artist + album + salt + pepper
+    but feel free to change / implement it however you want!
+    please look at make_salt funct if you are interested in this idea!
+    */
+
+    static std::unordered_map<std::string art_alb, std::vector<Song*>> songs_in_album;
+
+
+    /*
+    my idea for this is to make it generate a random string that can contain
+    any of the printable ascii characters, length could be up to you.
+    feel free to mess with function header if you want to implement differently
+
+    btw, Song now has a "salt" member,
+    */
+    static std::string make_salt();
 
     static bool artist_exists(const std::string& artist);
     static void make_artist(const std::string& artist);
     static void add_to_artist(const std::string& artist, Song *pSong);
 
-    static bool album_exists(const art_alb_pair& album);
-    static void make_album(const art_alb_pair& album);
+    static bool album_exists(const std::string art_alb& album);
+    static void make_album(const std::string_art_alb& album);
     static void add_to_album(const art_alb_pair& album, Song *pSong);
 
 public:

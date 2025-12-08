@@ -12,7 +12,9 @@
 
 std::vector<std::unique_ptr<Song>> Database::songs{};
 std::unordered_map<std::string, std::vector<Song*>> Database::songs_by_artists{};
-std::map<art_alb_pair, std::vector<Song*>> Database::songs_in_album{};
+std::unordered_map<std::string art_alb, std::vector<Song*>> Database::songs_in_album{};
+
+
 
 
 bool Database::artist_exists(const std::string& artist){
@@ -32,7 +34,7 @@ void Database::make_artist(const std::string& artist){
     songs_by_artists[artist] = artist_songs;
 }
 
-void Database::make_album(const art_alb_pair& album){
+void Database::make_album(const std::string art_alb& album){
     std::vector<Song*> album_songs {};
     songs_in_album[album] = album_songs;
 }
