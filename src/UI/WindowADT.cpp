@@ -1,30 +1,48 @@
 #include "WindowADT.hpp"
-#include "SFML/Graphics/Color.hpp"
 #include "SFML/Window/Event.hpp"
 #include "SFML/Window/VideoMode.hpp"
+#include <optional>
 
 
-void WindowADT::make_window(){
-	window.create(sf::VideoMode({SCREEN_WIDTH, SCREEN_HEIGHT}), "Test Window");
-	window.clear(sf::Color::Green);
-	window.display();
+
+
+
+
+
+WindowADT::WindowADT(const std::string& window_title){
+	this->window_title = window_title;
+
+	window.create(sf::VideoMode({SCREEN_WIDTH, SCREEN_HEIGHT}), window_title);
+
+	
 }
 
-void WindowADT::update_window(){
-	while (window.isOpen()){
-
-		while (const std::optional event = window.pollEvent()){
-			if (event->is<sf::Event::Closed>()){
-				window.close();
-			}
-		}
+/*
+determines what the user is doing, whether they close window, press a button
+type something, etc
+*/
+void WindowADT::handle_event(const sf::Event& event){
+	if (event.is<sf::Event::Closed>()){
+		window.close();
 	}
 }
 
 
+/*
+main loop of the window
+*/
+void WindowADT::run(){
+	while (window.isOpen()){
 
+		while (const std::optional<sf::Event> event = window.pollEvent()){
+			handle_event(*event);
+		}
 
-WindowADT::WindowADT(){
-	make_window();
-	update_window();
+		window.clear();
+
+		draw();
+		window.display();
+	}
 }
+
+

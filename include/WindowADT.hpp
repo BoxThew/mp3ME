@@ -6,24 +6,30 @@
 #include <string>
 
 class WindowADT{
+protected:
     std::string window_title;
     static constexpr unsigned int SCREEN_WIDTH = 800;
     static constexpr unsigned int SCREEN_HEIGHT = 800;
+    
+
     sf::RenderWindow window;
 
-    void make_window();
+    WindowADT(const std::string& window_title);
 
-    void update_window();
 
+    virtual void handle_event(const sf::Event& event);
+
+
+    //must override this 
+    virtual void draw() = 0;
 
 public:
-    WindowADT();
 
-public:
-
+    void run();
 
 
-
+    //must override destructor
+    virtual ~WindowADT() = default;
     
 };
 
