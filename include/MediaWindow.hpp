@@ -9,7 +9,9 @@
 
 class MediaWindow : public WindowADT{
 	sf::Font title_font;
-	 sf::Text *t;
+	sf::Text *t;
+	sf::Text *artist_text;
+
 
 
 	void display_song_title(const Song* song);

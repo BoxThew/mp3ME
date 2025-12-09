@@ -10,24 +10,30 @@ MediaWindow::MediaWindow() : WindowADT("Media Window"){
 	if(!title_font.openFromFile("assets/Fonts/Sono-Bold.ttf")){
 		std::cout << "No Font found.\n";
 	}
-	t = new sf::Text(title_font);
+	t = new sf::Text(title_font,  " ", 24);
+	artist_text = new sf::Text(title_font, " ", 18); 
+
 	t->setPosition({SCREEN_WIDTH / 2, 600});
+	t->setFillColor(sf::Color::Red);
+
+	
+	artist_text->setPosition({SCREEN_WIDTH / 2, 400});
+
 }
 
 	
-
-
 void MediaWindow::display_song_title(const Song* song){
+	if(!song || !t ){
+		return; 
+	}
 	t->setString(song->get_title());
-
-	t->setCharacterSize(24);
-	t->setFillColor(sf::Color::Red);
-	window.draw( *t);
-
 }
 
 void MediaWindow::display_song_artist(const Song* song){
-
+	if(!song || !artist_text){
+		return; 
+	}
+	artist_text->setString(song->get_artist());
 }
 
 void MediaWindow::display_song_album(const Song* song){
@@ -35,8 +41,14 @@ void MediaWindow::display_song_album(const Song* song){
 }
 
 void MediaWindow::draw(){
+	//draw title
 	if (t){
 		window.draw(*t);
+	}
+
+	//draw artist
+	if (artist_text){
+		window.draw(*artist_text);
 	}
 }
 
@@ -49,5 +61,7 @@ void MediaWindow::display_song_info(const Song* song){
 
 
 MediaWindow::~MediaWindow(){
+	delete t;
+	delete artist_text; 
 
 }
