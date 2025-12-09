@@ -7,6 +7,7 @@
 #include <map>
 #include <utility>
 #include <string>
+#include <algorithm> 
 
 
 
@@ -76,8 +77,67 @@ void Database::add_song(const Song& song){
 
 
 void Database::remove_song(const Song& song){
-//TODO
-    
+
+    std::string artist = song.get_artist();
+    std::string album_title = song.get_album(); 
+    std::string title = song.get_title();
+
+    std::string album_key = artist + album_title;
+
+    //remove by artist 
+    auto artistIt = songs_by_artists.find(artist); 
+
+    if(artistIt != songs_by_artists.end()) { //if found
+        auto& vec = artistIt->second;
+
+        vec.erase(
+            std::remove_if(vec.begin(), vec.end(), 
+            [&](Song* s) { //return true if song matches the criterias to remove
+                return s->get_title() == title
+                       && s->get_artist() == artist
+                       && s->get_album() == album_title; 
+                 }
+             ),
+             vec.end()
+        ); 
+
+        if(vec.empty()){
+            songs_by_artists.erase(artistIt); 
+        }
+    } 
+
+    //remove by album
+    auto albumIt = songs_in_album.find(album_key); 
+    if(albumIt != songs_in_album.end()){
+        auto& vec = albumIt->second; 
+
+        vec.erase(
+            std::remove_if(vec.begin(), vec.end(), 
+            [&](Song* s) {
+                return s->get_title() == title
+                       && s->get_artist() == artist
+                       && s->get_album() == album_title; 
+                 }
+             ),
+             vec.end()
+        ); 
+
+        if(vec.empty()){
+            songs_in_album.erase(albumIt); 
+        }
+    }
+
+    //remove by songs
+    songs.erase(
+            std::remove_if(songs.begin(), songs.end(), 
+            [&](const std::unique_ptr<Song>& sp) { 
+                return sp->get_title() == title
+                       && sp->get_artist() == artist
+                       && sp->get_album() == album_title; 
+                 }
+             ),
+             songs.end()
+        ); 
 }
 
 
