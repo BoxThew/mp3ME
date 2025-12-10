@@ -1,7 +1,6 @@
 #ifndef MEDIA_WINDOW_HPP
 #define MEDIA_WINDOW_HPP
 
-
 #include "WindowADT.hpp"
 #include "SFML/Graphics/Font.hpp"
 # include "SFML/Graphics/Text.hpp"
@@ -40,6 +39,8 @@ class MediaWindow: public WindowADT{
 	sf::Color beige = sf::Color(242, 232, 207); 
 	sf::Color green = sf::Color(56, 102, 65);
 
+
+	bool contains_point(const sf::RectangleShape& rect, float x, float y); 
 
 	void display_song_title(const Song* song);
 

@@ -7,15 +7,6 @@
 #include "Database.hpp"
 
 
-
-// sf::Color white = sf::Color::White;
-// sf::Color blue = sf::Color(146, 175, 215); 
-// sf::Color red = sf::Color(188, 71, 73); 
-// sf::Color beige = sf::Color(242, 232, 207); 
-// sf::Color green = sf::Color(56, 102, 65);
-
-
-
 MediaWindow::MediaWindow(): WindowADT("Media Window"), 
 song_title(nullptr),
 artist_text(nullptr),
@@ -23,11 +14,12 @@ prev_label(title_font, "Prev", 18),
 play_label(title_font, "Play", 18),
 next_label(title_font, "Next", 18)
 {
-
+	//font
 	if(!title_font.openFromFile("assets/Fonts/Sono-Bold.ttf")){
 		std::cout << "No Font found.\n";
 	}
 
+	//Text: title and artist
 	song_title = new sf::Text(title_font,  " ", 24);
 	artist_text = new sf::Text(title_font, " ", 18); 
 
@@ -75,6 +67,11 @@ next_label(title_font, "Next", 18)
 	next_label.setPosition({570.0f, labelY});
 }
 
+
+bool MediaWindow::contains_point(const sf::RectangleShape& rect, float x, float y){
+	return rect.getGlobalBounds().contains({x, y}); 
+}
+
 void MediaWindow::handle_event(const sf::Event& event){
 
 	WindowADT::handle_event(event);
@@ -82,24 +79,82 @@ void MediaWindow::handle_event(const sf::Event& event){
 	//Event: mouse clicks
 	if (auto* mouse = event.getIf<sf::Event::MouseButtonPressed>()){ 
 
-		if(mouse->button == sf::Mouse::Button::Left){ 
+		float m_x = static_cast<float>(mouse->position.x);
+		float m_y = static_cast<float>(mouse->position.y); 
 
+	  if(mouse->button == sf::Mouse::Button::Left){ 
+
+		//Event: Click song list
 		int mouseY = mouse->position.y;
 		int lineHeight = 24;
 		int listStartY = 50;
 
 		if(mouseY >= listStartY){ 
-			int index = (mouseY - listStartY) / lineHeight;
+			int row = (mouseY - listStartY) / lineHeight; 
+			int index = first_visible_index + row; 
 
 			if(index >= 0 && index < static_cast<int>(songs.size())){
 				selected_index = index;
 				Song* s = songs[index];
 				display_song_info(s);  
+				play_selected_song(); 
 				}
+			}
+
+
+		//Event: button clicks
+		if(contains_point(prev_button, m_x, m_y)){
+			if(!songs.empty()){
+				selected_index = (selected_index - 1 + static_cast<int>(songs.size())) %
+								static_cast<int>(songs.size()); 
+								display_song_info(songs[selected_index]);
+								play_selected_song(); 
+			}
+			return; 
+		}
+
+		if(contains_point(play_button, m_x, m_y)){
+			if(selected_index >= 0 && selected_index < static_cast<int>(songs.size())){
+				display_song_info(songs[selected_index]);
+				play_selected_song(); 
+			}
+			return; 
+		}
+
+		if(contains_point(next_button, m_x, m_y)){
+			if(!songs.empty()){
+				selected_index = (selected_index + 1) & static_cast<int>(songs.size());
+				display_song_info(songs[selected_index]);
+				play_selected_song(); 
+			}
+			return; 
+		}
+	  }
+	}
+
+	//Event: Scrolling
+	if (auto* mouse = event.getIf<sf::Event::MouseWheelScrolled>()){
+		int visibleSongs = 5;
+		int max = static_cast<int>(songs.size()) - visibleSongs;
+
+		if(max < 0) {
+			max = 0;
+		}
+		if(mouse->delta < 0){
+			//Event: scroll down
+			if(first_visible_index < max){
+				first_visible_index++;
+			}
+		}
+		else if(mouse->delta > 0){
+			//scroll down
+			if(first_visible_index > 0){
+				first_visible_index--; 
 			}
 		}
 	}
 }
+
 
 	
 void MediaWindow::display_song_title(const Song* song){
@@ -115,18 +170,47 @@ void MediaWindow::display_song_artist(const Song* song){
 		return; 
 	}
 	artist_text->setString(song->get_artist());
+	center_text(artist_text); 
 }
 
 void MediaWindow::display_song_album(const Song* song){
 	display_song_title(song);
 	display_song_artist(song); 
-
+	display_song_album(song);
 }
 
 
 void MediaWindow::center_text(sf::Text* text){
 	sf::FloatRect bounds = text->getLocalBounds();
 	text->setOrigin(bounds.getCenter());
+}
+
+void MediaWindow::play_selected_song()
+{
+	if(selected_index < 0 || selected_index >= static_cast<int>(songs.size())){
+		std::cout << "No song has been selected.\n"; 
+		return;
+	}
+
+	Song* song = songs[selected_index];
+
+	if(!song){
+		std::cout<<"Invalid: Null.\n"; 
+		return; 
+	}
+
+	music.stop();
+
+	if(!music.openFromFile(song->get_file_name())){
+		std::cout <<"ERROR: could not open file";
+		return; 
+	}
+
+	std::cout <<"Playing: " << song->get_title() << " by " << 
+				song->get_artist() << "\n"; 
+
+	music.play(); 
+
 }
 
 
@@ -140,6 +224,7 @@ void MediaWindow::draw(){
 	if (artist_text){
 		window.draw(*artist_text);
 	}
+
 	//Draw: scrollable list
 	float x = 50.0f;
 	float y = 50.0f; 
@@ -147,17 +232,17 @@ void MediaWindow::draw(){
 	
 	sf::Text lineText(title_font,"", 18);
 
-	int visibleSongs = 10;
+	int visibleSongs = 5;
 	int start = first_visible_index;
 	int end = std::min(start + visibleSongs, static_cast<int>(songs.size()));
 
 	for(int i = 0; i < end; i++){
-
 		Song* s = songs[i];
 		
 		if(!s){
 			continue;
 		}
+		
 		lineText.setString(s->get_title());
 		lineText.setPosition({x,y});
 
@@ -171,6 +256,8 @@ void MediaWindow::draw(){
 		y += lineHeight; 
 	}
 
+
+	//draw buttons and labels
 	window.draw(prev_button);
 	window.draw(play_button);
 	window.draw(next_button);
@@ -184,7 +271,6 @@ void MediaWindow::draw(){
 void MediaWindow::display_song_info(const Song* song){
 	display_song_title(song);
 	display_song_artist(song);
-	display_song_album(song);
 }
 
 
