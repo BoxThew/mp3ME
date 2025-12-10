@@ -9,6 +9,9 @@
 #include <utility>
 #include <functional>
 
+//for reading and writing objects
+#include <fstream>
+
 
 //removed structs
 
@@ -33,10 +36,16 @@ class Database{
     static void make_album(const std::string& album);
     static void add_to_album(const std::string& album, Song *pSong);
 
+
+
 public:
     
 
     Database();
+
+    static void save_songs();
+
+    static std::vector<std::unique_ptr<Song>> load_songs();
 
     static void add_song(const Song& song);
 

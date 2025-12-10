@@ -17,6 +17,15 @@ std::unordered_map<std::string, std::vector<Song*>> Database::songs_by_artists{}
 std::unordered_map<std::string, std::vector<Song*>> Database::songs_in_album{};
 
 
+void Database::save_songs(){
+
+}
+
+
+std::vector<std::unique_ptr<Song>> Database::load_songs(){
+    
+}
+
 Database::Database(){
 
 }
