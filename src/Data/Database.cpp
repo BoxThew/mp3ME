@@ -18,6 +18,7 @@ const std::string Database::songs_file = "songs.bin";
 std::vector<std::unique_ptr<Song>> Database::songs{};
 std::unordered_map<std::string, std::vector<Song*>> Database::songs_by_artists{};
 std::unordered_map<std::string, std::vector<Song*>> Database::songs_in_album{};
+std::map<int, Song*> Database::top_songs{};
 
 
 void Database::save_songs(){

@@ -8,6 +8,7 @@
 #include <string> 
 #include <utility>
 #include <functional>
+#include <map>
 
 //for reading and writing objects
 
@@ -18,13 +19,8 @@ class Database{
     static const std::string songs_file;
     static std::vector<std::unique_ptr<Song>> songs;
     static std::unordered_map<std::string, std::vector<Song*>> songs_by_artists;
-
-    /*
-    using strings for this because std::pair would not hash properly.
-    */
-
     static std::unordered_map<std::string, std::vector<Song*>> songs_in_album;
-
+    static std::map<int, Song*> top_songs;
 
 
 
