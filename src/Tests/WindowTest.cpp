@@ -1,4 +1,5 @@
 #include "MediaWindow.hpp"
+#include "PlayMedia.hpp"
 
 #include "Song.hpp"
 #include "Database.hpp"
@@ -9,6 +10,7 @@
 
 using itr = std::filesystem::directory_iterator;
 
+/*
 int  main(){
     // Load all songs from the songs directory into the database
     std::string path = "songs";
@@ -30,8 +32,10 @@ int  main(){
     }
 
     // Create and run the media window
-    MediaWindow m;
-    m.run();
+    PlayMedia m;
+    m.set_queue(Database::get_all_songs());
+    m.play_songs();
+    
     
     return 0;
 }
@@ -39,3 +43,4 @@ int  main(){
 
 
 
+*/
