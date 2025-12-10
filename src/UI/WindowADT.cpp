@@ -5,10 +5,6 @@
 
 
 
-
-
-
-
 WindowADT::WindowADT(const std::string& window_title){
 	this->window_title = window_title;
 
@@ -22,6 +18,7 @@ determines what the user is doing, whether they close window, press a button
 type something, etc
 */
 void WindowADT::handle_event(const sf::Event& event){
+	
 	if (event.is<sf::Event::Closed>()){
 		window.close();
 	}

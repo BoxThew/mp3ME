@@ -15,6 +15,7 @@ using itr = std::filesystem::directory_iterator;
 
 
 
+/*
 int main(){
     
     std::string path = "songs";
@@ -47,5 +48,6 @@ int main(){
     
     return 0;
 }
+*/
 
 

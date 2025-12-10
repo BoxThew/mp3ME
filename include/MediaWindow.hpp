@@ -6,11 +6,16 @@
 #include "SFML/Graphics/Font.hpp"
 # include "SFML/Graphics/Text.hpp"
 #include "Song.hpp"
+#include "Database.hpp"
+#include <vector>
 
 class MediaWindow : public WindowADT{
 	sf::Font title_font;
 	sf::Text *t;
 	sf::Text *artist_text;
+
+	std::vector<Song*> songs;
+	int selected_index = -1; 
 
 
 
@@ -23,6 +28,7 @@ class MediaWindow : public WindowADT{
 
 protected:
 	virtual void draw() override;
+	void handle_event(const sf::Event& event) override; 
 
 public:
 	MediaWindow();
