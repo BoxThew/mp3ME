@@ -8,11 +8,11 @@
 
 
 
-sf::Color white = sf::Color::White;
-sf::Color blue = sf::Color(146, 175, 215); 
-sf::Color red = sf::Color(188, 71, 73); 
-sf::Color beige = sf::Color(242, 232, 207); 
-sf::Color green = sf::Color(56, 102, 65);
+// sf::Color white = sf::Color::White;
+// sf::Color blue = sf::Color(146, 175, 215); 
+// sf::Color red = sf::Color(188, 71, 73); 
+// sf::Color beige = sf::Color(242, 232, 207); 
+// sf::Color green = sf::Color(56, 102, 65);
 
 
 
@@ -52,7 +52,7 @@ next_label(title_font, "Next", 18)
 	play_button.setSize(buttonSize); 
 	next_button.setSize(buttonSize);
 
-	sf::Color buttonColor(100, 150, 200); 
+	sf::Color buttonColor(green); 
 	prev_button.setFillColor(buttonColor);
 	play_button.setFillColor(buttonColor);
 	next_button.setFillColor(buttonColor);
@@ -165,7 +165,7 @@ void MediaWindow::draw(){
 			lineText.setFillColor(red); 
 		}
 		else{
-			lineText.setFillColor(blue); 
+			lineText.setFillColor(green); 
 		}
 		window.draw(lineText);
 		y += lineHeight; 
