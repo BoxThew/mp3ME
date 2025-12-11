@@ -176,7 +176,6 @@ void MediaWindow::display_song_artist(const Song* song){
 void MediaWindow::display_song_album(const Song* song){
 	display_song_title(song);
 	display_song_artist(song); 
-	display_song_album(song);
 }
 
 
@@ -236,7 +235,7 @@ void MediaWindow::draw(){
 	int start = first_visible_index;
 	int end = std::min(start + visibleSongs, static_cast<int>(songs.size()));
 
-	for(int i = 0; i < end; i++){
+	for(int i = start; i < end; i++){
 		Song* s = songs[i];
 		
 		if(!s){
