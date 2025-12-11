@@ -8,47 +8,51 @@
 #include <memory>
 #include "SFML/Audio.hpp"
 #include "SFML/System.hpp"
-#include "MediaWindow.hpp"
 
 
 
-enum class PlayBack{
-    PREV, TOGGLE, SKIP, FINISHED, ERROR, NONE
-};
 
-PlayBack action(const char c);
 
 class PlayMedia{
 
     std::deque<Song*> queue;
     std::stack<Song*> history;
     Song *current_song; 
+    sf::Music music;
 
 
 
 public:
     PlayMedia();
 
+
+    void clear_queue();
+    Song *get_current_song() const;
     void set_queue(const std::vector<std::unique_ptr<Song>>& songs);
 
     void set_queue(const std::vector<Song*>& songs);
 
-    void play_songs();
+    void add_to_queue(Song *song);
+
+
+    void play_song(Song *song);
+
+    void play_from_idx(const std::vector<Song*>& songs, int idx);
+
+
 
     void set_history(Song *song);
 
 
-    bool still_playing(const sf::Music& music) const;
 
-    void skip_song(sf::Music& music);
+    void skip_song();
 
     void next_song();
 
-    void prev_song(sf::Music& music);
+    void prev_song();
 
-    void toggle_song(sf::Music& music);
+    void toggle_song();
 
-    PlayBack play_current_song();
 
 
 

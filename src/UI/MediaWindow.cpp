@@ -7,6 +7,10 @@
 #include "Database.hpp"
 #include  "SongGraph.hpp"
 #include <algorithm>
+#include "PlayMedia.hpp"
+
+
+
 
 MediaWindow::MediaWindow(SongGraph* g): WindowADT("Media Window"), 
 song_title(nullptr),
@@ -32,10 +36,8 @@ graph(g)
 	artist_text->setPosition({SCREEN_WIDTH / 2, 400});
 
 	//load all songs
-	auto& allSong = Database::get_all_songs();
-	for(auto& s: allSong){
-		songs.push_back(s.get()); 
-	}
+	Database::load_songs(); //fixme later
+	load_songs();
 
 
 	//Buttons
@@ -74,6 +76,13 @@ graph(g)
 void MediaWindow::load_songs(){
 	auto& all_songs = Database::get_all_songs();
 	pm.set_queue(all_songs);
+
+	songs.clear();
+	songs.reserve(all_songs.size());
+	for (const auto& song : all_songs){
+		songs.push_back(song.get());
+	}
+	pm.set_queue(all_songs);
 }
 
 bool MediaWindow::contains_point(const sf::RectangleShape& rect, float x, float y){
@@ -82,7 +91,13 @@ bool MediaWindow::contains_point(const sf::RectangleShape& rect, float x, float 
 
 void MediaWindow::handle_event(const sf::Event& event){
 
+	if(event.is<sf::Event::Closed>()){
+		Database::save_songs();
+		window.close();
+	}
+
 	WindowADT::handle_event(event);
+	
 
 	//Event: mouse clicks
 	if (auto* mouse = event.getIf<sf::Event::MouseButtonPressed>()){ 
@@ -217,25 +232,7 @@ void MediaWindow::play_selected_song()
 		return;
 	}
 
-	Song* song = songs[selected_index];
-
-	if(!song){
-		std::cout<<"Invalid: Null.\n"; 
-		return; 
-	}
-
-	music.stop();
-
-	if(!music.openFromFile(song->get_file_name())){
-		std::cout <<"ERROR: could not open file";
-		return; 
-	}
-
-	std::cout <<"Playing: " << song->get_title() << " by " << 
-				song->get_artist() << "\n"; 
-
-	music.play(); 
-
+	pm.play_from_idx(songs, selected_index);
 }
 
 

@@ -13,14 +13,14 @@
 
 class SongGraph; 
 
-class MediaWindow: public WindowADT{
+class MediaWindow : public WindowADT{
 	sf::Font title_font;
 	sf::Text *song_title;
 	sf::Text *artist_text;
 
 	//song list
 	std::vector<Song*> songs;
-	PlayMedia pm;
+	
 
 
 	int selected_index = -1; 
@@ -37,8 +37,8 @@ class MediaWindow: public WindowADT{
 	sf::Text play_label;
 	sf::Text next_label; 
 
-	//Audio
-	sf::Music music; 
+	//Queue / Logic
+	PlayMedia pm;
 
 	//Color
 	sf::Color white = sf::Color::White;
