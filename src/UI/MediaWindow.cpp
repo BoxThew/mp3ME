@@ -123,7 +123,7 @@ void MediaWindow::handle_event(const sf::Event& event){
 
 		if(contains_point(next_button, m_x, m_y)){
 			if(!songs.empty()){
-				selected_index = (selected_index + 1) & static_cast<int>(songs.size());
+				selected_index = (selected_index + 1) % static_cast<int>(songs.size());
 				display_song_info(songs[selected_index]);
 				play_selected_song(); 
 			}

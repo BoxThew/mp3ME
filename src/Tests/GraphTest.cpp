@@ -1,3 +1,7 @@
+// GraphTest disabled - use WindowTest for GUI
+// To re-enable, uncomment the code below
+
+/*
 #include "SongGraph.hpp"
 #include "Database.hpp"
 #include "Song.hpp"
@@ -8,7 +12,6 @@
 
 using itr = std::filesystem::directory_iterator;
 
-/*
 int main() {
     // Load songs into Database
     std::string path = "songs";
@@ -48,6 +51,4 @@ int main() {
     
     return 0;
 }
-*/
-
 */
