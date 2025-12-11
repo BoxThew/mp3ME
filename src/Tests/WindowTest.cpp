@@ -10,6 +10,10 @@
 
 using itr = std::filesystem::directory_iterator;
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 23650342d357f533ae02d8df25f1c67701b14166
 int  main(){
     // Load all songs from the songs directory into the database
     std::string path = "songs";
@@ -30,9 +34,23 @@ int  main(){
         Database::add_song(s);
     }
 
+<<<<<<< HEAD
     MediaWindow m;
     m.run();
     
     return 0;
 }
  
+=======
+    // Create and run the media window
+    MediaWindow w;
+    w.run();
+    
+    
+    return 0;
+}
+
+
+
+
+>>>>>>> 23650342d357f533ae02d8df25f1c67701b14166

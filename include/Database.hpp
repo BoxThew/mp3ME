@@ -8,23 +8,22 @@
 #include <string> 
 #include <utility>
 #include <functional>
+#include <queue>
 
 //for reading and writing objects
 
 
 //removed structs
+struct ByTimesListened{
+    bool operator()(const Song* s1, const Song *s2) const;
+};
 
 class Database{
     static const std::string songs_file;
     static std::vector<std::unique_ptr<Song>> songs;
     static std::unordered_map<std::string, std::vector<Song*>> songs_by_artists;
-
-    /*
-    using strings for this because std::pair would not hash properly.
-    */
-
     static std::unordered_map<std::string, std::vector<Song*>> songs_in_album;
-
+    static std::priority_queue<Song*, std::vector<Song*>, ByTimesListened> top_songs;
 
 
 
@@ -56,6 +55,9 @@ public:
 
     static std::vector<Song*>& get_album_songs(const std::string& artist,
                                                 const std::string& album);
+
+
+static std::vector<Song*> get_top_songs();
 
 };
 
