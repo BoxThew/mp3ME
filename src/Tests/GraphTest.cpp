@@ -8,6 +8,7 @@
 
 using itr = std::filesystem::directory_iterator;
 
+/*
 int main() {
     // Load songs into Database
     std::string path = "songs";
@@ -47,4 +48,5 @@ int main() {
     
     return 0;
 }
+*/
 

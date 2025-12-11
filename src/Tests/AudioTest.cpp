@@ -16,6 +16,7 @@ using itr = std::filesystem::directory_iterator;
 
 
 
+/*
 int main(){
     
     Database::load_songs();
@@ -32,5 +33,6 @@ int main(){
     
     return 0;
 }
+*/
 
 
